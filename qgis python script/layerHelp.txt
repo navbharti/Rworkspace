@@ -1,0 +1,1111 @@
+﻿help(layer)
+Help on QgsVectorLayer in module qgis._core object:
+
+class QgsVectorLayer(QgsMapLayer)
+ |  QgsVectorLayer(QString path=QString.null, QString baseName=QString.null, QString providerLib=QString.null, bool loadDefaultStyleFlag=True)
+ |  
+ |  Method resolution order:
+ |      QgsVectorLayer
+ |      QgsMapLayer
+ |      PyQt4.QtCore.QObject
+ |      sip.wrapper
+ |      sip.simplewrapper
+ |      __builtin__.object
+ |  
+ |  Methods defined here:
+ |  
+ |  actions(...)
+ |      QgsVectorLayer.actions() -> QgsAttributeAction
+ |  
+ |  addAttribute(...)
+ |      QgsVectorLayer.addAttribute(QgsField) -> bool
+ |  
+ |  addAttributeAlias(...)
+ |      QgsVectorLayer.addAttributeAlias(int, QString)
+ |  
+ |  addAttributeEditorWidget(...)
+ |      QgsVectorLayer.addAttributeEditorWidget(QgsAttributeEditorElement)
+ |  
+ |  addExpressionField(...)
+ |      QgsVectorLayer.addExpressionField(QString, QgsField) -> int
+ |  
+ |  addFeature(...)
+ |      QgsVectorLayer.addFeature(QgsFeature, bool alsoUpdateExtent=True) -> bool
+ |  
+ |  addFeatures(...)
+ |      QgsVectorLayer.addFeatures(list-of-QgsFeature, bool makeSelected=True) -> bool
+ |  
+ |  addJoin(...)
+ |      QgsVectorLayer.addJoin(QgsVectorJoinInfo) -> bool
+ |  
+ |  addPart(...)
+ |      QgsVectorLayer.addPart(list-of-QgsPoint) -> int
+ |  
+ |  addRing(...)
+ |      QgsVectorLayer.addRing(list-of-QgsPoint) -> (int, int)
+ |  
+ |  addTopologicalPoints(...)
+ |      QgsVectorLayer.addTopologicalPoints(QgsGeometry) -> int
+ |      QgsVectorLayer.addTopologicalPoints(QgsPoint) -> int
+ |  
+ |  allFeatureIds(...)
+ |      QgsVectorLayer.allFeatureIds() -> unknown-type
+ |  
+ |  annotationForm(...)
+ |      QgsVectorLayer.annotationForm() -> QString
+ |  
+ |  appendError(...)
+ |  
+ |  applyNamedStyle(...)
+ |      QgsVectorLayer.applyNamedStyle(QString) -> (bool, QString)
+ |  
+ |  attributeAdded = <unbound signal attributeAdded>
+ |  attributeAlias(...)
+ |      QgsVectorLayer.attributeAlias(int) -> QString
+ |  
+ |  attributeAliases(...)
+ |      QgsVectorLayer.attributeAliases() -> dict-of-QString-QString
+ |  
+ |  attributeDeleted = <unbound signal attributeDeleted>
+ |  attributeDisplayName(...)
+ |      QgsVectorLayer.attributeDisplayName(int) -> QString
+ |  
+ |  attributeEditorElementFromDomElement(...)
+ |      QgsVectorLayer.attributeEditorElementFromDomElement(QDomElement, QObject) -> QgsAttributeEditorElement
+ |  
+ |  attributeEditorElements(...)
+ |      QgsVectorLayer.attributeEditorElements() -> list-of-QgsAttributeEditorElement
+ |  
+ |  attributeList(...)
+ |      QgsVectorLayer.attributeList() -> list-of-int
+ |  
+ |  attributeValueChanged = <unbound signal attributeValueChanged>
+ |  beforeCommitChanges = <unbound signal beforeCommitChanges>
+ |  beforeModifiedCheck = <unbound signal beforeModifiedCheck>
+ |  beforeRollBack = <unbound signal beforeRollBack>
+ |  beginEditCommand(...)
+ |      QgsVectorLayer.beginEditCommand(QString)
+ |  
+ |  boundingBoxOfSelected(...)
+ |      QgsVectorLayer.boundingBoxOfSelected() -> QgsRectangle
+ |  
+ |  capabilitiesString(...)
+ |      QgsVectorLayer.capabilitiesString() -> QString
+ |  
+ |  changeAttributeValue(...)
+ |      QgsVectorLayer.changeAttributeValue(int, int, QVariant, bool) -> bool
+ |      QgsVectorLayer.changeAttributeValue(int, int, QVariant, QVariant oldValue=QVariant()) -> bool
+ |  
+ |  changeGeometry(...)
+ |      QgsVectorLayer.changeGeometry(int, QgsGeometry) -> bool
+ |  
+ |  checkJoinLayerRemove(...)
+ |      QgsVectorLayer.checkJoinLayerRemove(QString)
+ |  
+ |  childEvent(...)
+ |  
+ |  clearAttributeEditorWidgets(...)
+ |      QgsVectorLayer.clearAttributeEditorWidgets()
+ |  
+ |  commitChanges(...)
+ |      QgsVectorLayer.commitChanges() -> bool
+ |  
+ |  commitErrors(...)
+ |      QgsVectorLayer.commitErrors() -> QStringList
+ |  
+ |  committedAttributeValuesChanges = <unbound signal committedAttributeValuesChanges>
+ |  committedAttributesAdded = <unbound signal committedAttributesAdded>
+ |  committedAttributesDeleted = <unbound signal committedAttributesDeleted>
+ |  committedFeaturesAdded = <unbound signal committedFeaturesAdded>
+ |  committedFeaturesRemoved = <unbound signal committedFeaturesRemoved>
+ |  committedGeometriesChanges = <unbound signal committedGeometriesChanges>
+ |  conditionalStyles(...)
+ |      QgsVectorLayer.conditionalStyles() -> QgsConditionalLayerStyles
+ |  
+ |  connectNotify(...)
+ |  
+ |  countSymbolFeatures(...)
+ |      QgsVectorLayer.countSymbolFeatures(bool showProgress=True) -> bool
+ |  
+ |  createJoinCaches(...)
+ |      QgsVectorLayer.createJoinCaches()
+ |  
+ |  createMapRenderer(...)
+ |      QgsVectorLayer.createMapRenderer(QgsRenderContext) -> QgsMapLayerRenderer
+ |  
+ |  customEvent(...)
+ |  
+ |  dataComment(...)
+ |      QgsVectorLayer.dataComment() -> QString
+ |  
+ |  dataProvider(...)
+ |      QgsVectorLayer.dataProvider() -> QgsVectorDataProvider
+ |  
+ |  dateFormat(...)
+ |      QgsVectorLayer.dateFormat(int) -> QString
+ |  
+ |  deleteAttribute(...)
+ |      QgsVectorLayer.deleteAttribute(int) -> bool
+ |  
+ |  deleteAttributes(...)
+ |      QgsVectorLayer.deleteAttributes(list-of-int) -> bool
+ |  
+ |  deleteFeature(...)
+ |      QgsVectorLayer.deleteFeature(int) -> bool
+ |  
+ |  deleteSelectedFeatures(...)
+ |      QgsVectorLayer.deleteSelectedFeatures() -> (bool, int)
+ |  
+ |  deleteVertex(...)
+ |      QgsVectorLayer.deleteVertex(int, int) -> bool
+ |  
+ |  deselect(...)
+ |      QgsVectorLayer.deselect(int)
+ |      QgsVectorLayer.deselect(unknown-type)
+ |  
+ |  destroyEditCommand(...)
+ |      QgsVectorLayer.destroyEditCommand()
+ |  
+ |  diagramLayerSettings(...)
+ |      QgsVectorLayer.diagramLayerSettings() -> QgsDiagramLayerSettings
+ |  
+ |  diagramRenderer(...)
+ |      QgsVectorLayer.diagramRenderer() -> QgsDiagramRendererV2
+ |  
+ |  diagramsEnabled(...)
+ |      QgsVectorLayer.diagramsEnabled() -> bool
+ |  
+ |  disconnectNotify(...)
+ |  
+ |  displayExpression(...)
+ |      QgsVectorLayer.displayExpression() -> QString
+ |  
+ |  displayField(...)
+ |      QgsVectorLayer.displayField() -> QString
+ |  
+ |  draw(...)
+ |      QgsVectorLayer.draw(QgsRenderContext) -> bool
+ |  
+ |  drawLabels(...)
+ |      QgsVectorLayer.drawLabels(QgsRenderContext)
+ |  
+ |  drawVertexMarker(...)
+ |      QgsVectorLayer.drawVertexMarker(float, float, QPainter, QgsVectorLayer.VertexMarkerType, int)
+ |  
+ |  editBuffer(...)
+ |      QgsVectorLayer.editBuffer() -> QgsVectorLayerEditBuffer
+ |  
+ |  editCommandDestroyed = <unbound signal editCommandDestroyed>
+ |  editCommandEnded = <unbound signal editCommandEnded>
+ |  editCommandStarted = <unbound signal editCommandStarted>
+ |  editForm(...)
+ |      QgsVectorLayer.editForm() -> QString
+ |  
+ |  editFormInit(...)
+ |      QgsVectorLayer.editFormInit() -> QString
+ |  
+ |  editType(...)
+ |      QgsVectorLayer.editType(int) -> QgsVectorLayer.EditType
+ |  
+ |  editingStarted = <unbound signal editingStarted>
+ |  editingStopped = <unbound signal editingStopped>
+ |  editorLayout(...)
+ |      QgsVectorLayer.editorLayout() -> QgsVectorLayer.EditorLayout
+ |  
+ |  editorWidgetV2(...)
+ |      QgsVectorLayer.editorWidgetV2(int) -> QString
+ |  
+ |  editorWidgetV2ByName(...)
+ |      QgsVectorLayer.editorWidgetV2ByName(QString) -> QString
+ |  
+ |  editorWidgetV2Config(...)
+ |      QgsVectorLayer.editorWidgetV2Config(int) -> dict-of-QString-QVariant
+ |  
+ |  editorWidgetV2ConfigByName(...)
+ |      QgsVectorLayer.editorWidgetV2ConfigByName(QString) -> dict-of-QString-QVariant
+ |  
+ |  enableLabels(...)
+ |      QgsVectorLayer.enableLabels(bool)
+ |  
+ |  endEditCommand(...)
+ |      QgsVectorLayer.endEditCommand()
+ |  
+ |  excludeAttributesWFS(...)
+ |      QgsVectorLayer.excludeAttributesWFS() -> list-of-QString
+ |  
+ |  excludeAttributesWMS(...)
+ |      QgsVectorLayer.excludeAttributesWMS() -> list-of-QString
+ |  
+ |  expressionField(...)
+ |      QgsVectorLayer.expressionField(int) -> QString
+ |  
+ |  extent(...)
+ |      QgsVectorLayer.extent() -> QgsRectangle
+ |  
+ |  featureAdded = <unbound signal featureAdded>
+ |  featureBlendMode(...)
+ |      QgsVectorLayer.featureBlendMode() -> QPainter.CompositionMode
+ |  
+ |  featureBlendModeChanged = <unbound signal featureBlendModeChanged>
+ |  featureCount(...)
+ |      QgsVectorLayer.featureCount(QgsSymbolV2) -> int
+ |      QgsVectorLayer.featureCount() -> int
+ |  
+ |  featureDeleted = <unbound signal featureDeleted>
+ |  featureFormSuppress(...)
+ |      QgsVectorLayer.featureFormSuppress() -> QgsVectorLayer.FeatureFormSuppress
+ |  
+ |  featuresDeleted = <unbound signal featuresDeleted>
+ |  fieldEditable(...)
+ |      QgsVectorLayer.fieldEditable(int) -> bool
+ |  
+ |  fieldNameIndex(...)
+ |      QgsVectorLayer.fieldNameIndex(QString) -> int
+ |  
+ |  fields(...)
+ |      QgsVectorLayer.fields() -> QgsFields
+ |  
+ |  geometryChanged = <unbound signal geometryChanged>
+ |  geometryType(...)
+ |      QgsVectorLayer.geometryType() -> QGis.GeometryType
+ |  
+ |  getDoubleValues(...)
+ |      QgsVectorLayer.getDoubleValues(QString, bool selectedOnly=False) -> (list-of-float, bool, int)
+ |  
+ |  getFeatures(...)
+ |      QgsVectorLayer.getFeatures(QgsFeatureRequest request=QgsFeatureRequest()) -> QgsFeatureIterator
+ |  
+ |  getStyleFromDatabase(...)
+ |      QgsVectorLayer.getStyleFromDatabase(QString, QString) -> QString
+ |  
+ |  getValues(...)
+ |      QgsVectorLayer.getValues(QString, bool selectedOnly=False) -> (list-of-QVariant, bool)
+ |  
+ |  hasGeometryType(...)
+ |      QgsVectorLayer.hasGeometryType() -> bool
+ |  
+ |  hasLabelsEnabled(...)
+ |      QgsVectorLayer.hasLabelsEnabled() -> bool
+ |  
+ |  insertSegmentVerticesForSnap(...)
+ |      QgsVectorLayer.insertSegmentVerticesForSnap(list-of-QgsSnappingResult) -> int
+ |  
+ |  insertVertex(...)
+ |      QgsVectorLayer.insertVertex(float, float, int, int) -> bool
+ |  
+ |  invalidateSymbolCountedFlag(...)
+ |      QgsVectorLayer.invalidateSymbolCountedFlag()
+ |  
+ |  invertSelection(...)
+ |      QgsVectorLayer.invertSelection()
+ |  
+ |  invertSelectionInRectangle(...)
+ |      QgsVectorLayer.invertSelectionInRectangle(QgsRectangle)
+ |  
+ |  isEditable(...)
+ |      QgsVectorLayer.isEditable() -> bool
+ |  
+ |  isModified(...)
+ |      QgsVectorLayer.isModified() -> bool
+ |  
+ |  isReadOnly(...)
+ |      QgsVectorLayer.isReadOnly() -> bool
+ |  
+ |  label(...)
+ |      QgsVectorLayer.label() -> QgsLabel
+ |  
+ |  labelOnTop(...)
+ |      QgsVectorLayer.labelOnTop(int) -> bool
+ |  
+ |  labelingFontNotFound = <unbound signal labelingFontNotFound>
+ |  labelsEnabled(...)
+ |      QgsVectorLayer.labelsEnabled() -> bool
+ |  
+ |  layerDeleted = <unbound signal layerDeleted>
+ |  layerModified = <unbound signal layerModified>
+ |  layerTransparency(...)
+ |      QgsVectorLayer.layerTransparency() -> int
+ |  
+ |  layerTransparencyChanged = <unbound signal layerTransparencyChanged>
+ |  listStylesInDatabase(...)
+ |      QgsVectorLayer.listStylesInDatabase(QStringList, QStringList, QStringList, QString) -> int
+ |  
+ |  loadNamedStyle(...)
+ |      QgsVectorLayer.loadNamedStyle(QString, bool) -> (QString, bool)
+ |      QgsVectorLayer.loadNamedStyle(QString) -> (QString, bool)
+ |  
+ |  maximumValue(...)
+ |      QgsVectorLayer.maximumValue(int) -> QVariant
+ |  
+ |  metadata(...)
+ |      QgsVectorLayer.metadata() -> QString
+ |  
+ |  minimumValue(...)
+ |      QgsVectorLayer.minimumValue(int) -> QVariant
+ |  
+ |  modifySelection(...)
+ |      QgsVectorLayer.modifySelection(unknown-type, unknown-type)
+ |  
+ |  moveVertex(...)
+ |      QgsVectorLayer.moveVertex(float, float, int, int) -> bool
+ |  
+ |  onJoinedFieldsChanged(...)
+ |  
+ |  onRelationsLoaded(...)
+ |  
+ |  pendingAllAttributesList(...)
+ |      QgsVectorLayer.pendingAllAttributesList() -> list-of-int
+ |  
+ |  pendingFeatureCount(...)
+ |      QgsVectorLayer.pendingFeatureCount() -> int
+ |  
+ |  pendingFields(...)
+ |      QgsVectorLayer.pendingFields() -> QgsFields
+ |  
+ |  pendingPkAttributesList(...)
+ |      QgsVectorLayer.pendingPkAttributesList() -> list-of-int
+ |  
+ |  pkAttributeList(...)
+ |      QgsVectorLayer.pkAttributeList() -> list-of-int
+ |  
+ |  providerType(...)
+ |      QgsVectorLayer.providerType() -> QString
+ |  
+ |  range(...)
+ |      QgsVectorLayer.range(int) -> QgsVectorLayer.RangeData
+ |  
+ |  readCustomProperties(...)
+ |  
+ |  readCustomSymbology = <unbound signal readCustomSymbology>
+ |  readSld(...)
+ |      QgsVectorLayer.readSld(QDomNode, QString) -> bool
+ |  
+ |  readStyleManager(...)
+ |  
+ |  readSymbology(...)
+ |      QgsVectorLayer.readSymbology(QDomNode, QString) -> bool
+ |  
+ |  readXml(...)
+ |      QgsVectorLayer.readXml(QDomNode) -> bool
+ |  
+ |  receivers(...)
+ |  
+ |  referencingRelations(...)
+ |      QgsVectorLayer.referencingRelations(int) -> list-of-QgsRelation
+ |  
+ |  reload(...)
+ |      QgsVectorLayer.reload()
+ |  
+ |  remAttributeAlias(...)
+ |      QgsVectorLayer.remAttributeAlias(int)
+ |  
+ |  removeExpressionField(...)
+ |      QgsVectorLayer.removeExpressionField(int)
+ |  
+ |  removeJoin(...)
+ |      QgsVectorLayer.removeJoin(QString)
+ |  
+ |  removePolygonIntersections(...)
+ |      QgsVectorLayer.removePolygonIntersections(QgsGeometry, unknown-type ignoreFeatures=QgsFeatureIds()) -> int
+ |  
+ |  removeSelection(...)
+ |      QgsVectorLayer.removeSelection()
+ |  
+ |  rendererV2(...)
+ |      QgsVectorLayer.rendererV2() -> QgsFeatureRendererV2
+ |  
+ |  rollBack(...)
+ |      QgsVectorLayer.rollBack(bool deleteBuffer=True) -> bool
+ |  
+ |  saveLayerToProject = <unbound signal saveLayerToProject>
+ |  saveStyleToDatabase(...)
+ |      QgsVectorLayer.saveStyleToDatabase(QString, QString, bool, QString, QString)
+ |  
+ |  select(...)
+ |      QgsVectorLayer.select(QgsRectangle, bool)
+ |      QgsVectorLayer.select(int)
+ |      QgsVectorLayer.select(unknown-type)
+ |  
+ |  selectAll(...)
+ |      QgsVectorLayer.selectAll()
+ |  
+ |  selectedFeatureCount(...)
+ |      QgsVectorLayer.selectedFeatureCount() -> int
+ |  
+ |  selectedFeatures(...)
+ |      QgsVectorLayer.selectedFeatures() -> list-of-QgsFeature
+ |  
+ |  selectedFeaturesIds(...)
+ |      QgsVectorLayer.selectedFeaturesIds() -> unknown-type
+ |  
+ |  selectedFeaturesIterator(...)
+ |      QgsVectorLayer.selectedFeaturesIterator(QgsFeatureRequest request=QgsFeatureRequest()) -> QgsFeatureIterator
+ |  
+ |  selectionChanged = <unbound signal selectionChanged>
+ |  sender(...)
+ |  
+ |  senderSignalIndex(...)
+ |  
+ |  setAnnotationForm(...)
+ |      QgsVectorLayer.setAnnotationForm(QString)
+ |  
+ |  setCheckedState(...)
+ |      QgsVectorLayer.setCheckedState(int, QString, QString)
+ |  
+ |  setCoordinateSystem(...)
+ |      QgsVectorLayer.setCoordinateSystem()
+ |  
+ |  setDataSource(...)
+ |      QgsVectorLayer.setDataSource(QString, QString, QString, bool loadDefaultStyleFlag=False)
+ |  
+ |  setDiagramLayerSettings(...)
+ |      QgsVectorLayer.setDiagramLayerSettings(QgsDiagramLayerSettings)
+ |  
+ |  setDiagramRenderer(...)
+ |      QgsVectorLayer.setDiagramRenderer(QgsDiagramRendererV2)
+ |  
+ |  setDisplayExpression(...)
+ |      QgsVectorLayer.setDisplayExpression(QString)
+ |  
+ |  setDisplayField(...)
+ |      QgsVectorLayer.setDisplayField(QString fldName="")
+ |  
+ |  setEditForm(...)
+ |      QgsVectorLayer.setEditForm(QString)
+ |  
+ |  setEditFormInit(...)
+ |      QgsVectorLayer.setEditFormInit(QString)
+ |  
+ |  setEditType(...)
+ |      QgsVectorLayer.setEditType(int, QgsVectorLayer.EditType)
+ |  
+ |  setEditorLayout(...)
+ |      QgsVectorLayer.setEditorLayout(QgsVectorLayer.EditorLayout)
+ |  
+ |  setEditorWidgetV2(...)
+ |      QgsVectorLayer.setEditorWidgetV2(int, QString)
+ |  
+ |  setEditorWidgetV2Config(...)
+ |      QgsVectorLayer.setEditorWidgetV2Config(int, dict-of-QString-QVariant)
+ |  
+ |  setError(...)
+ |  
+ |  setExcludeAttributesWFS(...)
+ |      QgsVectorLayer.setExcludeAttributesWFS(list-of-QString)
+ |  
+ |  setExcludeAttributesWMS(...)
+ |      QgsVectorLayer.setExcludeAttributesWMS(list-of-QString)
+ |  
+ |  setExtent(...)
+ |      QgsVectorLayer.setExtent(QgsRectangle)
+ |  
+ |  setFeatureBlendMode(...)
+ |      QgsVectorLayer.setFeatureBlendMode(QPainter.CompositionMode)
+ |  
+ |  setFeatureFormSuppress(...)
+ |      QgsVectorLayer.setFeatureFormSuppress(QgsVectorLayer.FeatureFormSuppress)
+ |  
+ |  setFieldEditable(...)
+ |      QgsVectorLayer.setFieldEditable(int, bool)
+ |  
+ |  setLabelOnTop(...)
+ |      QgsVectorLayer.setLabelOnTop(int, bool)
+ |  
+ |  setLayerTransparency(...)
+ |      QgsVectorLayer.setLayerTransparency(int)
+ |  
+ |  setProviderEncoding(...)
+ |      QgsVectorLayer.setProviderEncoding(QString)
+ |  
+ |  setReadOnly(...)
+ |      QgsVectorLayer.setReadOnly(bool readonly=True) -> bool
+ |  
+ |  setRendererV2(...)
+ |      QgsVectorLayer.setRendererV2(QgsFeatureRendererV2)
+ |  
+ |  setSelectedFeatures(...)
+ |      QgsVectorLayer.setSelectedFeatures(unknown-type)
+ |  
+ |  setSimplifyMethod(...)
+ |      QgsVectorLayer.setSimplifyMethod(QgsVectorSimplifyMethod)
+ |  
+ |  setSubsetString(...)
+ |      QgsVectorLayer.setSubsetString(QString) -> bool
+ |  
+ |  setValid(...)
+ |  
+ |  simplifyDrawingCanbeApplied(...)
+ |      QgsVectorLayer.simplifyDrawingCanbeApplied(QgsRenderContext, QgsVectorSimplifyMethod.SimplifyHint) -> bool
+ |  
+ |  simplifyMethod(...)
+ |      QgsVectorLayer.simplifyMethod() -> QgsVectorSimplifyMethod
+ |  
+ |  snapPoint(...)
+ |      QgsVectorLayer.snapPoint(QgsPoint, float) -> bool
+ |  
+ |  snapWithContext(...)
+ |      QgsVectorLayer.snapWithContext(QgsPoint, float, QgsSnapper.SnappingType) -> (int, unknown-type)
+ |  
+ |  splitFeatures(...)
+ |      QgsVectorLayer.splitFeatures(list-of-QgsPoint, bool topologicalEditing=False) -> int
+ |  
+ |  splitParts(...)
+ |      QgsVectorLayer.splitParts(list-of-QgsPoint, bool topologicalEditing=False) -> int
+ |  
+ |  startEditing(...)
+ |      QgsVectorLayer.startEditing() -> bool
+ |  
+ |  storageType(...)
+ |      QgsVectorLayer.storageType() -> QString
+ |  
+ |  subsetString(...)
+ |      QgsVectorLayer.subsetString() -> QString
+ |  
+ |  timerEvent(...)
+ |  
+ |  translateFeature(...)
+ |      QgsVectorLayer.translateFeature(int, float, float) -> int
+ |  
+ |  uniqueValues(...)
+ |      QgsVectorLayer.uniqueValues(int, int limit=-1) -> list-of-QVariant
+ |  
+ |  updateExpressionField(...)
+ |      QgsVectorLayer.updateExpressionField(int, QString)
+ |  
+ |  updateExtents(...)
+ |      QgsVectorLayer.updateExtents()
+ |  
+ |  updateFeature(...)
+ |      QgsVectorLayer.updateFeature(QgsFeature) -> bool
+ |  
+ |  updateFields(...)
+ |      QgsVectorLayer.updateFields()
+ |  
+ |  updatedFields = <unbound signal updatedFields>
+ |  valueMap(...)
+ |      QgsVectorLayer.valueMap(int) -> dict-of-QString-QVariant
+ |  
+ |  valueRelation(...)
+ |      QgsVectorLayer.valueRelation(int) -> QgsVectorLayer.ValueRelationData
+ |  
+ |  vectorJoins(...)
+ |      QgsVectorLayer.vectorJoins() -> list-of-QgsVectorJoinInfo
+ |  
+ |  widgetSize(...)
+ |      QgsVectorLayer.widgetSize(int) -> QSize
+ |  
+ |  wkbType(...)
+ |      QgsVectorLayer.wkbType() -> QGis.WkbType
+ |  
+ |  writeCustomProperties(...)
+ |  
+ |  writeCustomSymbology = <unbound signal writeCustomSymbology>
+ |  writeSld(...)
+ |      QgsVectorLayer.writeSld(QDomNode, QDomDocument, QString) -> bool
+ |  
+ |  writeStyleManager(...)
+ |  
+ |  writeSymbology(...)
+ |      QgsVectorLayer.writeSymbology(QDomNode, QDomDocument, QString) -> bool
+ |  
+ |  writeXml(...)
+ |      QgsVectorLayer.writeXml(QDomNode, QDomDocument) -> bool
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  Calendar = 13
+ |  
+ |  CheckBox = 7
+ |  
+ |  Classification = 4
+ |  
+ |  Color = 19
+ |  
+ |  Cross = 1
+ |  
+ |  DialRange = 14
+ |  
+ |  EditRange = 5
+ |  
+ |  EditType = <class 'qgis._core.EditType'>
+ |  
+ |  
+ |  EditorLayout = <class 'qgis._core.EditorLayout'>
+ |  
+ |  
+ |  EditorWidgetV2 = 20
+ |  
+ |  Enumeration = 9
+ |  
+ |  FeatureFormSuppress = <class 'qgis._core.FeatureFormSuppress'>
+ |  
+ |  
+ |  FileName = 8
+ |  
+ |  GeneratedLayout = 0
+ |  
+ |  GroupData = <class 'qgis._core.GroupData'>
+ |      QgsVectorLayer.GroupData()
+ |      QgsVectorLayer.GroupData(QString, list-of-QString)
+ |      QgsVectorLayer.GroupData(QgsVectorLayer.GroupData)
+ |  
+ |  Hidden = 11
+ |  
+ |  Immutable = 10
+ |  
+ |  LineEdit = 0
+ |  
+ |  NoMarker = 2
+ |  
+ |  Photo = 17
+ |  
+ |  RangeData = <class 'qgis._core.RangeData'>
+ |      QgsVectorLayer.RangeData()
+ |      QgsVectorLayer.RangeData(QVariant, QVariant, QVariant)
+ |      QgsVectorLayer.RangeData(QgsVectorLayer.RangeData)
+ |  
+ |  SemiTransparentCircle = 0
+ |  
+ |  SliderRange = 6
+ |  
+ |  SuppressDefault = 0
+ |  
+ |  SuppressOff = 2
+ |  
+ |  SuppressOn = 1
+ |  
+ |  TabData = <class 'qgis._core.TabData'>
+ |      QgsVectorLayer.TabData()
+ |      QgsVectorLayer.TabData(QString, list-of-QString, list-of-QgsVectorLayer.GroupData)
+ |      QgsVectorLayer.TabData(QgsVectorLayer.TabData)
+ |  
+ |  TabLayout = 1
+ |  
+ |  TextEdit = 12
+ |  
+ |  UiFileLayout = 2
+ |  
+ |  UniqueValues = 1
+ |  
+ |  UniqueValuesEditable = 2
+ |  
+ |  UuidGenerator = 16
+ |  
+ |  ValueMap = 3
+ |  
+ |  ValueRelation = 15
+ |  
+ |  ValueRelationData = <class 'qgis._core.ValueRelationData'>
+ |      QgsVectorLayer.ValueRelationData()
+ |      QgsVectorLayer.ValueRelationData(QString, QString, QString, bool, bool, bool allowMulti=False, QString filterExpression=QString.null)
+ |      QgsVectorLayer.ValueRelationData(QgsVectorLayer.ValueRelationData)
+ |  
+ |  VertexMarkerType = <class 'qgis._core.VertexMarkerType'>
+ |  
+ |  
+ |  WebView = 18
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from QgsMapLayer:
+ |  
+ |  abstract(...)
+ |      QgsMapLayer.abstract() -> QString
+ |  
+ |  asLayerDefinition(...)
+ |      QgsMapLayer.asLayerDefinition(list-of-QgsMapLayer, QString relativeBasePath=QString.null) -> QDomDocument
+ |  
+ |  attribution(...)
+ |      QgsMapLayer.attribution() -> QString
+ |  
+ |  attributionUrl(...)
+ |      QgsMapLayer.attributionUrl() -> QString
+ |  
+ |  blendMode(...)
+ |      QgsMapLayer.blendMode() -> QPainter.CompositionMode
+ |  
+ |  blendModeChanged = <unbound signal blendModeChanged>
+ |  cacheImage(...)
+ |      QgsMapLayer.cacheImage() -> QImage
+ |  
+ |  capitaliseLayerName(...)
+ |      QgsMapLayer.capitaliseLayerName(QString) -> QString
+ |  
+ |  clearCacheImage(...)
+ |      QgsMapLayer.clearCacheImage()
+ |  
+ |  crs(...)
+ |      QgsMapLayer.crs() -> QgsCoordinateReferenceSystem
+ |  
+ |  customProperty(...)
+ |      QgsMapLayer.customProperty(QString, QVariant defaultValue=QVariant()) -> QVariant
+ |  
+ |  dataChanged = <unbound signal dataChanged>
+ |  dataUrl(...)
+ |      QgsMapLayer.dataUrl() -> QString
+ |  
+ |  dataUrlFormat(...)
+ |      QgsMapLayer.dataUrlFormat() -> QString
+ |  
+ |  drawingProgress = <unbound signal drawingProgress>
+ |  error(...)
+ |      QgsMapLayer.error() -> QgsError
+ |  
+ |  exportNamedStyle(...)
+ |      QgsMapLayer.exportNamedStyle(QDomDocument, QString)
+ |  
+ |  exportSldStyle(...)
+ |      QgsMapLayer.exportSldStyle(QDomDocument, QString)
+ |  
+ |  fromLayerDefinition(...)
+ |      QgsMapLayer.fromLayerDefinition(QDomDocument) -> list-of-QgsMapLayer
+ |  
+ |  fromLayerDefinitionFile(...)
+ |      QgsMapLayer.fromLayerDefinitionFile(QString) -> list-of-QgsMapLayer
+ |  
+ |  hasScaleBasedVisibility(...)
+ |      QgsMapLayer.hasScaleBasedVisibility() -> bool
+ |  
+ |  id(...)
+ |      QgsMapLayer.id() -> QString
+ |  
+ |  importNamedStyle(...)
+ |      QgsMapLayer.importNamedStyle(QDomDocument) -> (bool, QString)
+ |  
+ |  invalidTransformInput(...)
+ |      QgsMapLayer.invalidTransformInput()
+ |  
+ |  isValid(...)
+ |      QgsMapLayer.isValid() -> bool
+ |  
+ |  keywordList(...)
+ |      QgsMapLayer.keywordList() -> QString
+ |  
+ |  lastError(...)
+ |      QgsMapLayer.lastError() -> QString
+ |  
+ |  lastErrorTitle(...)
+ |      QgsMapLayer.lastErrorTitle() -> QString
+ |  
+ |  layerCrsChanged = <unbound signal layerCrsChanged>
+ |  layerNameChanged = <unbound signal layerNameChanged>
+ |  legend(...)
+ |      QgsMapLayer.legend() -> QgsMapLayerLegend
+ |  
+ |  legendChanged = <unbound signal legendChanged>
+ |  legendUrl(...)
+ |      QgsMapLayer.legendUrl() -> QString
+ |  
+ |  legendUrlFormat(...)
+ |      QgsMapLayer.legendUrlFormat() -> QString
+ |  
+ |  loadDefaultStyle(...)
+ |      QgsMapLayer.loadDefaultStyle() -> (QString, bool)
+ |  
+ |  loadNamedStyleFromDb(...)
+ |      QgsMapLayer.loadNamedStyleFromDb(QString, QString) -> (bool, QString)
+ |  
+ |  loadSldStyle(...)
+ |      QgsMapLayer.loadSldStyle(QString) -> (QString, bool)
+ |  
+ |  maximumScale(...)
+ |      QgsMapLayer.maximumScale() -> float
+ |  
+ |  metadataUrl(...)
+ |      QgsMapLayer.metadataUrl() -> QString
+ |  
+ |  metadataUrlFormat(...)
+ |      QgsMapLayer.metadataUrlFormat() -> QString
+ |  
+ |  metadataUrlType(...)
+ |      QgsMapLayer.metadataUrlType() -> QString
+ |  
+ |  minimumScale(...)
+ |      QgsMapLayer.minimumScale() -> float
+ |  
+ |  name(...)
+ |      QgsMapLayer.name() -> QString
+ |  
+ |  onCacheImageDelete(...)
+ |      QgsMapLayer.onCacheImageDelete()
+ |  
+ |  originalName(...)
+ |      QgsMapLayer.originalName() -> QString
+ |  
+ |  publicSource(...)
+ |      QgsMapLayer.publicSource() -> QString
+ |  
+ |  readLayerXML(...)
+ |      QgsMapLayer.readLayerXML(QDomElement) -> bool
+ |  
+ |  recalculateExtents = <unbound signal recalculateExtents>
+ |  removeCustomProperty(...)
+ |      QgsMapLayer.removeCustomProperty(QString)
+ |  
+ |  rendererChanged = <unbound signal rendererChanged>
+ |  repaintRequested = <unbound signal repaintRequested>
+ |  saveDefaultStyle(...)
+ |      QgsMapLayer.saveDefaultStyle() -> (QString, bool)
+ |  
+ |  saveNamedStyle(...)
+ |      QgsMapLayer.saveNamedStyle(QString) -> (QString, bool)
+ |  
+ |  saveSldStyle(...)
+ |      QgsMapLayer.saveSldStyle(QString) -> (QString, bool)
+ |  
+ |  screenUpdateRequested = <unbound signal screenUpdateRequested>
+ |  setAbstract(...)
+ |      QgsMapLayer.setAbstract(QString)
+ |  
+ |  setAttribution(...)
+ |      QgsMapLayer.setAttribution(QString)
+ |  
+ |  setAttributionUrl(...)
+ |      QgsMapLayer.setAttributionUrl(QString)
+ |  
+ |  setBlendMode(...)
+ |      QgsMapLayer.setBlendMode(QPainter.CompositionMode)
+ |  
+ |  setCacheImage(...)
+ |      QgsMapLayer.setCacheImage(QImage)
+ |  
+ |  setCrs(...)
+ |      QgsMapLayer.setCrs(QgsCoordinateReferenceSystem, bool emitSignal=True)
+ |  
+ |  setCustomProperty(...)
+ |      QgsMapLayer.setCustomProperty(QString, QVariant)
+ |  
+ |  setDataUrl(...)
+ |      QgsMapLayer.setDataUrl(QString)
+ |  
+ |  setDataUrlFormat(...)
+ |      QgsMapLayer.setDataUrlFormat(QString)
+ |  
+ |  setKeywordList(...)
+ |      QgsMapLayer.setKeywordList(QString)
+ |  
+ |  setLayerName(...)
+ |      QgsMapLayer.setLayerName(QString)
+ |  
+ |  setLayerOrder(...)
+ |      QgsMapLayer.setLayerOrder(QStringList)
+ |  
+ |  setLegend(...)
+ |      QgsMapLayer.setLegend(QgsMapLayerLegend)
+ |  
+ |  setLegendUrl(...)
+ |      QgsMapLayer.setLegendUrl(QString)
+ |  
+ |  setLegendUrlFormat(...)
+ |      QgsMapLayer.setLegendUrlFormat(QString)
+ |  
+ |  setMaximumScale(...)
+ |      QgsMapLayer.setMaximumScale(float)
+ |  
+ |  setMetadataUrl(...)
+ |      QgsMapLayer.setMetadataUrl(QString)
+ |  
+ |  setMetadataUrlFormat(...)
+ |      QgsMapLayer.setMetadataUrlFormat(QString)
+ |  
+ |  setMetadataUrlType(...)
+ |      QgsMapLayer.setMetadataUrlType(QString)
+ |  
+ |  setMinimumScale(...)
+ |      QgsMapLayer.setMinimumScale(float)
+ |  
+ |  setScaleBasedVisibility(...)
+ |      QgsMapLayer.setScaleBasedVisibility(bool)
+ |  
+ |  setSubLayerVisibility(...)
+ |      QgsMapLayer.setSubLayerVisibility(QString, bool)
+ |  
+ |  setTitle(...)
+ |      QgsMapLayer.setTitle(QString)
+ |  
+ |  source(...)
+ |      QgsMapLayer.source() -> QString
+ |  
+ |  statusChanged = <unbound signal statusChanged>
+ |  styleManager(...)
+ |      QgsMapLayer.styleManager() -> QgsMapLayerStyleManager
+ |  
+ |  styleURI(...)
+ |      QgsMapLayer.styleURI() -> QString
+ |  
+ |  subLayers(...)
+ |      QgsMapLayer.subLayers() -> QStringList
+ |  
+ |  timestamp(...)
+ |      QgsMapLayer.timestamp() -> QDateTime
+ |  
+ |  title(...)
+ |      QgsMapLayer.title() -> QString
+ |  
+ |  toggleScaleBasedVisibility(...)
+ |      QgsMapLayer.toggleScaleBasedVisibility(bool)
+ |  
+ |  triggerRepaint(...)
+ |      QgsMapLayer.triggerRepaint()
+ |  
+ |  type(...)
+ |      QgsMapLayer.type() -> QgsMapLayer.LayerType
+ |  
+ |  undoStack(...)
+ |      QgsMapLayer.undoStack() -> QUndoStack
+ |  
+ |  writeLayerXML(...)
+ |      QgsMapLayer.writeLayerXML(QDomElement, QDomDocument, QString relativeBasePath=QString.null) -> bool
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from QgsMapLayer:
+ |  
+ |  LayerType = <class 'qgis._core.LayerType'>
+ |  
+ |  
+ |  PluginLayer = 2
+ |  
+ |  RasterLayer = 1
+ |  
+ |  VectorLayer = 0
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from PyQt4.QtCore.QObject:
+ |  
+ |  __getattr__(...)
+ |      QObject.__getattr__(str) -> object
+ |  
+ |  blockSignals(...)
+ |      QObject.blockSignals(bool) -> bool
+ |  
+ |  children(...)
+ |      QObject.children() -> list-of-QObject
+ |  
+ |  connect(...)
+ |      QObject.connect(QObject, SIGNAL(), QObject, SLOT(), Qt.ConnectionType=Qt.AutoConnection) -> bool
+ |      QObject.connect(QObject, SIGNAL(), callable, Qt.ConnectionType=Qt.AutoConnection) -> bool
+ |      QObject.connect(QObject, SIGNAL(), SLOT(), Qt.ConnectionType=Qt.AutoConnection) -> bool
+ |  
+ |  deleteLater(...)
+ |      QObject.deleteLater()
+ |  
+ |  destroyed = <unbound signal destroyed>
+ |  disconnect(...)
+ |      QObject.disconnect(QObject, SIGNAL(), QObject, SLOT()) -> bool
+ |      QObject.disconnect(QObject, SIGNAL(), callable) -> bool
+ |  
+ |  dumpObjectInfo(...)
+ |      QObject.dumpObjectInfo()
+ |  
+ |  dumpObjectTree(...)
+ |      QObject.dumpObjectTree()
+ |  
+ |  dynamicPropertyNames(...)
+ |      QObject.dynamicPropertyNames() -> list-of-QByteArray
+ |  
+ |  emit(...)
+ |      QObject.emit(SIGNAL(), ...)
+ |  
+ |  event(...)
+ |      QObject.event(QEvent) -> bool
+ |  
+ |  eventFilter(...)
+ |      QObject.eventFilter(QObject, QEvent) -> bool
+ |  
+ |  findChild(...)
+ |      QObject.findChild(type, QString name=QString()) -> QObject
+ |      QObject.findChild(tuple, QString name=QString()) -> QObject
+ |  
+ |  findChildren(...)
+ |      QObject.findChildren(type, QString name=QString()) -> list-of-QObject
+ |      QObject.findChildren(tuple, QString name=QString()) -> list-of-QObject
+ |      QObject.findChildren(type, QRegExp) -> list-of-QObject
+ |      QObject.findChildren(tuple, QRegExp) -> list-of-QObject
+ |  
+ |  inherits(...)
+ |      QObject.inherits(str) -> bool
+ |  
+ |  installEventFilter(...)
+ |      QObject.installEventFilter(QObject)
+ |  
+ |  isWidgetType(...)
+ |      QObject.isWidgetType() -> bool
+ |  
+ |  killTimer(...)
+ |      QObject.killTimer(int)
+ |  
+ |  metaObject(...)
+ |      QObject.metaObject() -> QMetaObject
+ |  
+ |  moveToThread(...)
+ |      QObject.moveToThread(QThread)
+ |  
+ |  objectName(...)
+ |      QObject.objectName() -> QString
+ |  
+ |  parent(...)
+ |      QObject.parent() -> QObject
+ |  
+ |  property(...)
+ |      QObject.property(str) -> QVariant
+ |  
+ |  pyqtConfigure(...)
+ |      QObject.pyqtConfigure(...)
+ |      
+ |      Each keyword argument is either the name of a Qt property or a Qt signal.
+ |      For properties the property is set to the given value which should be of an
+ |      appropriate type.
+ |      For signals the signal is connected to the given value which should be a
+ |      callable.
+ |  
+ |  removeEventFilter(...)
+ |      QObject.removeEventFilter(QObject)
+ |  
+ |  setObjectName(...)
+ |      QObject.setObjectName(QString)
+ |  
+ |  setParent(...)
+ |      QObject.setParent(QObject)
+ |  
+ |  setProperty(...)
+ |      QObject.setProperty(str, QVariant) -> bool
+ |  
+ |  signalsBlocked(...)
+ |      QObject.signalsBlocked() -> bool
+ |  
+ |  startTimer(...)
+ |      QObject.startTimer(int) -> int
+ |  
+ |  thread(...)
+ |      QObject.thread() -> QThread
+ |  
+ |  tr(...)
+ |      QObject.tr(str, str disambiguation=None, int n=-1) -> QString
+ |  
+ |  trUtf8(...)
+ |      QObject.trUtf8(str, str disambiguation=None, int n=-1) -> QString
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from PyQt4.QtCore.QObject:
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  staticMetaObject
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from sip.simplewrapper:
+ |  
+ |  __init__(...)
+ |      x.__init__(...) initializes x; see help(type(x)) for signature
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from sip.simplewrapper:
+ |  
+ |  __dict__
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from sip.simplewrapper:
+ |  
+ |  __new__ = <built-in method __new__ of sip.wrappertype object>
+ |      T.__new__(S, ...) -> a new object with type S, a subtype of T

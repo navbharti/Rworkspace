@@ -1,0 +1,108 @@
+﻿help(feature)
+Help on QgsFeature in module qgis._core object:
+
+class QgsFeature(sip.wrapper)
+ |  QgsFeature(int id=0)
+ |  QgsFeature(QgsFields, int id=0)
+ |  QgsFeature(QgsFeature)
+ |  
+ |  Method resolution order:
+ |      QgsFeature
+ |      sip.wrapper
+ |      sip.simplewrapper
+ |      __builtin__.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __delitem__(...)
+ |      x.__delitem__(y) <==> del x[y]
+ |  
+ |  __getitem__(...)
+ |      x.__getitem__(y) <==> x[y]
+ |  
+ |  __iter__(...)
+ |      x.__iter__() <==> iter(x)
+ |  
+ |  __setitem__(...)
+ |      x.__setitem__(i, y) <==> x[i]=y
+ |  
+ |  attribute(...)
+ |      QgsFeature.attribute(QString) -> object
+ |  
+ |  attributes(...)
+ |      QgsFeature.attributes() -> list-of-attributes
+ |  
+ |  constGeometry(...)
+ |      QgsFeature.constGeometry() -> QgsGeometry
+ |  
+ |  deleteAttribute(...)
+ |      QgsFeature.deleteAttribute(int)
+ |      QgsFeature.deleteAttribute(QString) -> bool
+ |  
+ |  fieldNameIndex(...)
+ |      QgsFeature.fieldNameIndex(QString) -> int
+ |  
+ |  fields(...)
+ |      QgsFeature.fields() -> QgsFields
+ |  
+ |  geometry(...)
+ |      QgsFeature.geometry() -> QgsGeometry
+ |  
+ |  geometryAndOwnership(...)
+ |      QgsFeature.geometryAndOwnership() -> QgsGeometry
+ |  
+ |  id(...)
+ |      QgsFeature.id() -> int
+ |  
+ |  initAttributes(...)
+ |      QgsFeature.initAttributes(int)
+ |  
+ |  isValid(...)
+ |      QgsFeature.isValid() -> bool
+ |  
+ |  setAttribute(...)
+ |      QgsFeature.setAttribute(int, QVariant) -> bool
+ |      QgsFeature.setAttribute(QString, QVariant)
+ |  
+ |  setAttributes(...)
+ |      QgsFeature.setAttributes(list-of-attributes)
+ |  
+ |  setFeatureId(...)
+ |      QgsFeature.setFeatureId(int)
+ |  
+ |  setFields(...)
+ |      QgsFeature.setFields(QgsFields, bool initAttributes=True)
+ |  
+ |  setGeometry(...)
+ |      QgsFeature.setGeometry(QgsGeometry)
+ |  
+ |  setGeometryAndOwnership(...)
+ |      QgsFeature.setGeometryAndOwnership(str, int)
+ |  
+ |  setValid(...)
+ |      QgsFeature.setValid(bool)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __geo_interface__
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from sip.simplewrapper:
+ |  
+ |  __init__(...)
+ |      x.__init__(...) initializes x; see help(type(x)) for signature
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from sip.simplewrapper:
+ |  
+ |  __dict__
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from sip.simplewrapper:
+ |  
+ |  __new__ = <built-in method __new__ of sip.wrappertype object>
+ |      T.__new__(S, ...) -> a new object with type S, a subtype of T

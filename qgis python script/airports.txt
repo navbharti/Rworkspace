@@ -1,0 +1,891 @@
+Sahnewal, LUH, 30.850360, 75.957072
+Solapur, SSE, 17.625415, 75.933060
+Birsa Munda, IXR, 23.317725, 85.323597
+Ahwaz, AWZ, 31.343159, 48.747107
+Gwalior, GWL, 26.285488, 78.217219
+Hodeidah Int'l, HOD, 14.755253, 42.971096
+Devi Ahilyabai Holkar Int'l, IDR, 22.727749, 75.809292
+Gandhinagar, ISK, 19.966021, 73.810567
+Chandigarh Int'l, IXC, 30.670725, 76.801726
+Aurangabad, IXU, 19.867297, 75.395843
+Faisalabad Int'l, LYP, 31.362744, 72.987819
+Omsk Tsentralny, OMS, 54.957648, 73.316360
+Novosibirsk Tolmachev, OVB, 55.009585, 82.667152
+Zaporozhye Int'l, OZH, 47.873264, 35.301873
+Simpang Tiga, PKU, 0.464601, 101.446569
+Rota Int'l, ROP, 14.171771, 145.243980
+Surgut, SGC, 61.340167, 73.408496
+Tiruchirappalli, TRZ, 10.760357, 78.708958
+Turbat Int'l, TUK, 25.988795, 63.027933
+Quetta Int'l, UET, 30.249043, 66.948731
+Zahedan Int'l, ZAH, 29.475294, 60.900709
+Abdul Rachman Saleh, MLG, -7.929980, 112.711419
+Barnaul, BAX, 53.363385, 83.550453
+Adampur, NULL, 31.432942, 75.758483
+Bareilly, NULL, 28.421809, 79.452003
+Dhamial, NULL, 33.561415, 73.032050
+Cheongju Int'l, CJJ, 36.722023, 127.495916
+Gwangju, KWJ, 35.140005, 126.810839
+Daegu Int'l, TAE, 35.899928, 128.637538
+Ulsan, USN, 35.592896, 129.355731
+Radin Inten II, TKG, -5.242567, 105.176060
+Allahabad, IXD, 25.443522, 81.731727
+Chelyabinsk, CEK, 55.297792, 61.512259
+Tainan, TNN, 22.950668, 120.209733
+Taichung, RMQ, 24.266656, 120.630704
+Rotterdam The Hague, RTM, 51.949130, 4.433844
+Voronezh-Chertovitskoye, VOZ, 51.812617, 39.225450
+Liverpool John Lennon, LPL, 53.336375, -2.858621
+Vishakapatnam, VTZ, 17.727958, 83.223522
+Sultan Hasanuddin Int'l, UPG, -5.058937, 119.545691
+Vava'u Int'l, VAV, -18.586006, -173.968094
+Newcastle Int'l, NCL, 55.037085, -1.710346
+Goloson Int'l, LCE, 15.745160, -86.851469
+Madinah Int'l, MED, 24.544234, 39.699136
+Mirabel Int'l, YMX, 45.683225, -74.028738
+Palanga Int'l, PLQ, 55.971343, 21.097446
+Jaipur Int'l, JAI, 26.821180, 75.801010
+Sonari, IXW, 22.815415, 86.172466
+Yenisehir, YEI, 40.255540, 29.544920
+Sakirpasa, ADA, 36.985209, 35.296961
+Kodiak, ADQ, 57.748592, -152.485639
+Amarillo Int'l, AMA, 35.218403, -101.705353
+Alice Springs, ASP, -23.801968, 133.902918
+Raja Sansi Int'l, ATQ, 31.706822, 74.807156
+Biju Patnaik, BBI, 20.252666, 85.816890
+Bethel, BET, 60.778738, -161.838987
+Palonegro, BGA, 7.127709, -73.180921
+Birmingham Int'l, BHM, 33.561867, -86.752377
+Broken Hill, BHQ, -31.998997, 141.470407
+Logan Int'l, BIL, 45.803686, -108.536929
+Bismarck Muni., BIS, 46.775107, -100.757471
+Del Bajio Int'l, BJX, 20.985887, -101.478753
+Benin, BNI, 6.317167, 5.603683
+Bourgas, BOJ, 42.567084, 27.516409
+Bremen, BRE, 53.052287, 8.785862
+Jacinto Lara Int'l, BRM, 10.045300, -69.356102
+Brownsville-South Padre Island Int'l, BRO, 25.906274, -97.431765
+Bristol Int'l, BRS, 51.386293, -2.710865
+Baton Rouge Metro, BTR, 30.532614, -91.156754
+Bratislava-M.R. Stefanik, BTS, 48.169838, 17.199985
+Burlington Int'l, BTV, 44.469207, -73.155079
+Columbia Metro, CAE, 33.934205, -81.109335
+Calicut Int'l, CCJ, 11.139552, 75.950993
+Cocos (Keeling) Islands, CCK, -12.185159, 96.828747
+Corfu Int'l (Ioannis Kapodistrias), CFU, 39.606755, 19.914756
+Changchun Longjia Int'l, CGQ, 43.993011, 125.690457
+Charleston Int'l, CHS, 32.884530, -80.036934
+Coimbatore, CJB, 11.030142, 77.038894
+Someseni, CLJ, 46.782663, 23.686981
+Ignacio Agramonte, CMW, 21.424704, -77.845104
+Casper/Natrona County Int'l, CPR, 42.897190, -106.464445
+Clark Int'l, CRK, 15.187642, 120.550770
+Yeager, CRW, 38.370591, -81.596416
+Catania Fontanarossa, CTA, 37.470073, 15.067461
+Chetumal Int'l, CTM, 18.506434, -88.324260
+Cardiff, CWL, 51.398622, -3.339569
+Gerrard Smith, CYB, 19.689865, -79.879462
+Cozumel Int'l, CZM, 20.511554, -86.930406
+James M. Cox Dayton Int'l, DAY, 39.899040, -84.220459
+Dubbo, DBO, -32.218681, 148.569717
+Washington Nat'l, DCA, 38.853716, -77.043337
+Durango Int'l, DGO, 24.126195, -104.533846
+Voloskoye, DNK, 48.367572, 35.093906
+Donetsk, DOK, 48.069167, 37.744809
+Santa Bernardina Int'l, DZO, -33.359108, -56.499264
+Edinburgh Int'l, EDI, 55.948554, -3.364285
+Terrance B. Lettsome Int'l, EIS, 18.444362, -64.537151
+Elko Reg., EKO, 40.827606, -115.786479
+Ensenada, ESE, 31.797714, -116.595724
+Vagar, FAE, 62.062500, -7.270800
+Hector Int'l, FAR, 46.919818, -96.825456
+Fresno Yosemite Int'l, FAT, 36.769813, -119.720001
+Flagstaff Pulliam, FLG, 35.138912, -111.674656
+Mundo Maya Int'l, FRS, 16.914974, -89.877840
+Sioux Falls Reg., FSD, 43.580193, -96.731383
+Spokane Int'l, GEG, 47.625478, -117.536837
+Exuma Int'l, GGT, 23.563883, -75.872613
+Gibraltar, GIB, 36.151275, -5.346772
+Gerald R. Ford Int'l, GRR, 42.884778, -85.529573
+Triad Int'l, GSO, 36.105378, -79.936487
+Great Falls Int'l, GTF, 47.482271, -111.356685
+Gaziantep Oguzeli Int'l, GZT, 36.945363, 37.473803
+Hubli, HBX, 15.359183, 75.086316
+Hat Yai Int'l, HDY, 6.936342, 100.393751
+Hefei-Luogang, HFE, 31.779858, 117.304197
+Hurghada Int'l, HRG, 27.180426, 33.807161
+Kharkov Int'l, HRK, 49.921536, 36.282201
+Huntsville Int'l, HSV, 34.648334, -86.774943
+Ibadan, IBA, 7.360344, 3.973813
+Kansas City Int'l, ICT, 37.652928, -97.428739
+Wilmington Int'l, ILM, 34.266784, -77.910376
+Ilorin Int'l, ILR, 8.435377, 4.494840
+Falls Int'l, INL, 48.565993, -93.398003
+Inverness, INV, 57.539500, -4.063592
+Imperial Cty., IPL, 32.833959, -115.571996
+Jammu, IXJ, 32.681043, 74.842308
+Madurai, IXM, 9.837186, 78.091139
+Jodhpur, JDH, 26.263762, 73.050549
+Jabalpur, JLR, 23.184533, 80.058744
+Kilimanjaro Int'l, JRO, -3.424445, 37.065190
+Kaduna, KAD, 10.694619, 7.325253
+Kananga, KGA, -5.900167, 22.478333
+Kumasi, KMS, 6.714606, -1.592575
+Vina del Mar, KNA, -32.948392, -71.480603
+Kanpur, KNU, 26.438833, 80.367534
+Kona Int'l at Keahole, KOA, 19.737099, -156.040889
+Kirkwall, KOI, 58.954429, -2.901378
+Kota, KTU, 25.163419, 75.850498
+Konya, KYA, 37.983995, 32.575673
+Blue Grass, LEX, 38.037427, -84.598268
+Lihue, LIH, 21.978124, -159.349084
+Little Rock National, LIT, 34.728430, -92.220588
+Los Mochis, LMM, 25.688509, -109.082695
+Venustiano Carranza Int'l, LOV, 26.955393, -101.464960
+Laredo Int'l, LRD, 27.543666, -99.455660
+Sumburgh, LSI, 59.876690, -1.288061
+Bassel Al-Assad Int'l, LTK, 35.407311, 35.944241
+London Luton, LTN, 51.880295, -0.376227
+Svalbard Longyear, LYR, 78.246717, 15.495229
+Sangster Int'l, MBJ, 18.501155, -77.918391
+Mandalay Int'l, MDL, 21.705549, 95.970654
+Chicago Midway Int'l, MDW, 41.788349, -87.742127
+Eloy Alfaro Int'l, MEC, -0.949557, -80.683385
+Montgomery Reg., MGM, 32.304588, -86.390307
+Manchester-Boston Reg., MHT, 42.927914, -71.437524
+Maiduguri Int'l, MIU, 11.853471, 13.085139
+Mbuji Mayi, MJM, -6.124845, 23.572109
+Minot Int'l, MOT, 48.255605, -101.291386
+Missoula Int'l, MSO, 46.918760, -114.083695
+Gen R.S. Taboada Int'l, MXL, 32.628564, -115.247874
+Malpensa, MXP, 45.627441, 8.712960
+Norfolk Island, NLK, -29.035159, 167.943394
+Nurnberg, NUE, 49.494505, 11.077418
+Odessa Int'l, ODS, 46.440627, 30.676831
+Gold Coast, OOL, -28.166517, 153.512876
+Oran Es Senia, ORN, 35.620275, -0.606797
+Lok Nayak Jaiprakash, PAT, 25.594443, 85.090902
+Paysandu, PDU, -32.361455, -58.068535
+Paphos Int'l, PFO, 34.713401, 32.483232
+Sultan Mahmud Badaruddin II, PLM, -2.899993, 104.699128
+Polokwane Int'l, PTG, -23.858986, 29.453340
+Punta Cana, PUJ, 18.563039, -68.363235
+Queretaro Int'l, QRO, 20.622466, -100.187359
+Rajkot, RAJ, 22.309282, 70.779955
+Richmond Int'l, RIC, 37.508290, -77.333120
+Shah Makhdum, RJH, 24.444807, 88.613805
+Greater Rochester Int'l, ROC, 43.127552, -77.665245
+Rockhampton, ROK, -23.378599, 150.478897
+Rostov-on-Don, ROV, 47.255112, 39.803514
+Saratov, RTW, 51.560646, 46.035023
+Ramon Villeda Morales Int'l, SAP, 15.455863, -87.927237
+Santa Barbara Muni., SBA, 34.425731, -119.836602
+Deadhorse, SCC, 70.197510, -148.457855
+Kangerlussuaq, SFJ, 67.018097, -50.694199
+Springfield Reg., SGF, 37.242144, -93.382638
+Shreveport Reg., SHV, 32.454580, -93.828522
+Simferopol Int'l, SIP, 45.020217, 33.996053
+Sitka Rocky Gutierrez, SIT, 57.053490, -135.365692
+Los Cabos Int'l, SJD, 23.162657, -109.717858
+McNary Field, SLE, 44.910514, -123.007871
+Plan de Guadalupe, SLW, 25.547998, -100.932261
+Shannon, SNN, 52.693454, -8.922429
+Santo Pekoa Int'l, SON, -15.505539, 167.220895
+Achmad Yani, SRG, -6.978735, 110.378556
+Srinagar, SXR, 33.983091, 74.782624
+Tapachula Int'l, TAP, 14.791128, -92.370003
+Podgorica, TGD, 42.367934, 19.246687
+Tallahassee Reg., TLH, 30.395558, -84.344995
+Turin Int'l, TRN, 45.191660, 7.644162
+Taiyuan Wusu Int'l, TYN, 37.754512, 112.625892
+Narsarsuaq, UAK, 61.162597, -45.416401
+Rayong, UTP, 12.685293, 101.000209
+Victoria Falls, VFA, -18.099016, 25.846768
+Vijaywada, VGA, 16.528643, 80.797308
+Varanasi, VNS, 25.449908, 82.853874
+Juan Gualberto Gomez, VRA, 23.039542, -81.436710
+Villahermosa, VSA, 17.993066, -92.819068
+Brandon, YBR, 49.904728, -99.945896
+CFB Edmonton, YED, 53.674916, -113.478839
+Iqaluit, YFB, 63.751152, -68.536729
+John C. Munro Hamilton Int'l, YHM, 43.163361, -79.926423
+Fort McMurray, YMM, 56.656317, -111.223840
+Yantai, YNT, 37.407704, 121.372047
+Peace River, YPE, 56.231924, -117.443663
+Greater Moncton Int'l, YQM, 46.116206, -64.688670
+Sydney/J.A. Douglas McCurdy, YQY, 46.167341, -60.046937
+Resolute Bay, YRB, 74.718186, -94.970802
+Fort Smith, YSM, 60.019875, -111.961060
+Thompson, YTH, 55.797482, -97.860733
+Timmins, YTS, 48.566158, -81.372047
+Repulse Bay, YUT, 66.533302, -86.250000
+Kuujjuaq, YVP, 58.101959, -68.433342
+Wabush, YWK, 52.926071, -66.873009
+Edmonton City Centre, YXD, 53.570944, -113.522974
+Fort St. John (N. Peace), YXJ, 56.246035, -120.736439
+North Bay/Jack Garland, YYB, 46.358711, -79.424910
+Zaria, ZAR, 11.135296, 7.687268
+Skopje, SKP, 41.956455, 21.628197
+Burnpur, NULL, 23.631218, 86.974547
+Hindon Air Force Station, NULL, 28.707797, 77.350789
+Sunchon, NULL, 39.411966, 125.890825
+Lodz Wladyslaw Reymont, LCJ, 51.727207, 19.403215
+Alma Ata N.W., BXJ, 43.355419, 76.878264
+Jiamusi Dongjiao, JMU, 46.843015, 130.456205
+Mudanjiang Hailang, MDG, 44.534294, 129.580152
+Severomorsk-3 (Murmansk N.E.), NULL, 69.016871, 33.290353
+Mosul Int'l, OSB, 36.308601, 43.145802
+Rostov N., NULL, 47.277421, 39.635400
+Rostov S.W., NULL, 47.115858, 39.797222
+Oulu, OUL, 64.928799, 25.372837
+Bordeaux, BOD, 44.832111, -0.701793
+Mandelieu, CEQ, 43.546098, 6.954316
+St Gatien, DOL, 49.361661, 0.158654
+Lille-Lesquin, LIL, 50.571642, 3.105965
+Toulouse-Blagnac, TLS, 43.630463, 1.373509
+Fukuoka, FUK, 33.584816, 130.444190
+Hiroshima-Nishi, HIW, 34.371382, 132.419373
+Nagoya, NKM, 35.254053, 136.919628
+Sendai, SDJ, 38.138208, 140.930247
+Kirkenes Hoybuktmoen, KKN, 69.723832, 29.891349
+Marechal Rondon Int'l, CGB, -15.651147, -56.120177
+Hercilio Luz Int'l, FLN, -27.664628, -48.544812
+Joinville-Lauro C. de Loyola, JOI, -26.224294, -48.801650
+Presidente Castro Pinto Int'l, JPA, -7.146175, -34.948893
+Augusto Severo Int'l, NAT, -5.899121, -35.248841
+Francisco Sa Carneiro, OPO, 41.236871, -8.671272
+Marechal Cunha Machado Int'l, SLZ, -2.583509, -44.236234
+Santos Air Force Base, SSZ, -23.923759, -46.305270
+Teresina-Senador Petronio Portella, THE, -5.063463, -42.821240
+Viracopos-Campinas Int'l, VCP, -23.009624, -47.141079
+Eurico de Aguiar Salles, VIX, -20.257416, -40.288537
+Alicante, ALC, 38.286641, -0.557230
+Almeria, LEI, 36.847767, -2.371601
+Valencia, VLC, 39.491460, -0.473475
+Kiruna_Airport, KRN, 67.825607, 20.335152
+Norrkoping Airport, NRK, 58.583381, 16.233941
+Husein Sastranegara Int'l, BDO, -6.900424, 107.575612
+Rosario – Islas Malvinas Int'l, ROS, -32.916227, -60.780079
+Maceio/Zumbi dos Palmares Int'l, MCZ, -9.514941, -35.792495
+Sharm el-Sheikh Int'l, SSH, 27.980404, 34.390119
+Taba Int'l, TCP, 29.594499, 34.775838
+Agra, AGR, 27.157728, 77.960909
+Vadodara, BDQ, 22.336164, 73.226289
+Shahid Ashrafi Esfahani, KSH, 34.346417, 47.156584
+Benina Int'l, BEN, 32.087277, 20.268040
+King Abdulaziz Ab, DHA, 26.270368, 50.147725
+Nueva Hesperides Int'l, STY, -31.437388, -57.984082
+Baikonur Cosmodrome, NULL, 45.963574, 63.307354
+Kennedy Space Center, NULL, 28.516370, -80.636968
+Centre Spatial Guyanais, NULL, 5.239410, -52.768430
+Queen Beatrix Int'l, AUA, 12.503464, -70.007623
+Djibouti-Ambouli Int'l, JIB, 11.552102, 43.149713
+Diego Aracena Int'l, IQQ, -20.547840, -70.178635
+Sabiha Gokcen Havaalani, SAW, 40.904300, 29.309599
+Kosrae Island, KSA, 5.352010, 162.957041
+Funafuti Int'l, FUN, -8.524854, 179.195442
+Dr. Babasaheb Ambedkar Int'l, NAG, 21.089932, 79.053798
+Phuket Int'l, HKT, 8.107685, 98.306038
+Nadi Int'l, NAN, -17.752913, 177.451151
+Lic. Jesus Teran Peredo Int'l, AGU, 21.701339, -102.314094
+Albenga, ALL, 44.045877, 8.123145
+Queen Alia Int'l, AMM, 31.722662, 35.989707
+Chacalluta Int'l, ARI, -18.349206, -70.335730
+Atar Int'l, ATR, 20.498271, -13.051170
+Ernesto Cortissoz Int'l, BAQ, 10.886678, -74.776556
+Teniente Luis Candelaria Int'l, BRC, -41.145998, -71.161430
+Bouake, BYK, 7.736105, -5.068942
+Philip S. W. Goldson Int'l, BZE, 17.536069, -88.308206
+Corpus Christi Int'l, CRP, 27.774456, -97.502268
+Hato Int'l, CUR, 12.184835, -68.956879
+Velazco Astete Int'l, CUZ, -13.538219, -71.943664
+Julius Nyerere Int'l, DAR, -6.866720, 39.207472
+Detroit City, DET, 42.409094, -83.003968
+Presidente Nicolau Lobato Int'l, DIL, -8.549312, 125.524854
+Moscow Domodedovo Int'l, DME, 55.414153, 37.900253
+Dunedin Int'l, DUD, -45.923431, 170.200027
+Dzaoudzi Pamanzi Int'l, DZA, -12.804947, 45.281786
+El Paso Int'l, ELP, 31.799086, -106.395715
+Zvartnots Int'l, EVN, 40.152368, 44.400063
+Fort Worth Meacham Field, FTW, 32.820753, -97.355135
+JAGS McCartney Int'l, GDT, 21.442124, -71.146134
+Scholes Int'l, GLS, 29.267124, -94.855401
+Goma Int'l, GOM, -1.658318, 29.240053
+Garoua Int'l, GOU, 9.330689, 13.372431
+Antonio B. Won Pat Int'l, GUM, 13.492646, 144.805850
+Gary/Chicago Int'l, GYY, 41.617793, -87.408360
+Prince Said Ibrahim Int'l, HAH, -11.536639, 43.274561
+Hobart Int'l, HBA, -42.837608, 147.505996
+Honiara Int'l, HIR, -9.427576, 160.045855
+Kiev Zhuliany Int'l, IEV, 50.412808, 30.445131
+Irkutsk S.E., IKT, 52.272889, 104.355860
+Indianapolis Int'l, IND, 39.730204, -86.273400
+Nauru Int'l, INU, -0.545037, 166.916140
+Mataveri Int'l, IPC, -27.158774, -109.430064
+Gob. Horacio Guzman Int'l, JUJ, -24.386101, -65.093767
+Nanchang Changbei Int'l, KHN, 28.862489, 115.911980
+Kunming Wujiaba Int'l, KMG, 24.999996, 102.742118
+Leeds Bradford, LBA, 53.869082, -1.659831
+Libreville Leon M'ba Int'l, LBV, 0.457139, 9.410223
+Lome Tokoin, LFW, 6.166874, 1.250932
+Lviv Danylo Halytskyi Int'l, LWO, 49.817851, 23.946127
+Marshall Islands Int'l, MAJ, 7.068118, 171.281919
+Macau Int'l, MFM, 22.157657, 113.574513
+Aden Adde Int'l, MGQ, 2.016353, 45.303637
+Maputo Int'l, MPM, -25.924277, 32.574192
+Sir Seewoosagur Ramgoolam Int'l, MRU, -20.431757, 57.676986
+Naples Int'l, NAP, 40.878073, 14.282844
+Nouadhibou Int'l, NDB, 20.929052, -17.033440
+Ningbo Lishe Int'l, NGB, 29.820823, 121.461819
+Nouakchott Int'l, NKC, 18.097923, -15.951926
+La Tontouta Int'l, NOU, -22.013639, 166.217232
+Oakland Int'l, OAK, 37.712304, -122.213261
+Ontario Int'l, ONT, 34.060191, -117.592328
+Cork, ORK, 51.848541, -8.490142
+Minangkabau Int'l, PDG, -0.786046, 100.285456
+Joao Paulo II, PDL, 37.743332, -25.696988
+Bacha Khan Int'l, PEW, 33.991403, 71.518815
+Glasgow Prestwick, PIK, 55.508892, -4.610972
+Ponta Pora Int'l, PMG, -22.551787, -55.706079
+Palmerston N. Int'l, PMR, -40.323318, 175.621283
+Pohnpei Int'l, PNI, 6.981307, 158.203304
+Tahiti Faa'a Int'l, PPT, -17.559458, -149.609758
+Pisa Galileo Galilei Int'l, PSA, 43.698322, 10.400134
+Port Sudan, PZU, 19.576064, 37.216066
+Praia Int'l, RAI, 14.944989, -23.486202
+Marrakech-Menara, RAK, 31.602295, -8.024605
+Rarotonga Int'l, RAR, -21.200982, -159.798156
+Siem Reap Int'l, REP, 13.408797, 103.815781
+Hermes Quijada Int'l, RGA, -53.781475, -67.753027
+Piloto Civil Norberto Fernandez Int'l, RGL, -51.611698, -69.306471
+Reno-Tahoe Int'l, RNO, 39.505850, -119.775283
+Roman Tmetuchl Int'l, ROR, 7.364496, 134.532953
+Amilcar Cabral Int'l, SID, 16.734793, -22.944057
+Sarajevo, SJJ, 43.825887, 18.336619
+Robert L. Bradshaw Int'l, SKB, 17.311126, -62.714213
+Martín Miguel de Güemes Int, SLA, -24.844374, -65.478476
+Saipan Int'l, SPN, 15.121517, 145.723695
+Juana Azurduy de Padilla Int'l, SRE, -19.013916, -65.292863
+Princess Juliana Int'l, SXM, 18.042244, -63.112276
+Ta'izz Int'l, TAI, 13.685497, 44.134783
+Qingdao Liuting Int'l, TAO, 36.267758, 120.380686
+Chuuk Int'l, TKK, 7.457618, 151.842046
+Tangier Ibn Battouta, TNG, 35.725766, -5.912881
+Bonriki Int'l, TRW, 1.380669, 173.145991
+Astana Int'l, TSE, 51.026935, 71.460944
+Tianjin Binhai Int'l, TSN, 39.129461, 117.352723
+Townsville, TSV, -19.256181, 146.770679
+Teniente Gen. Benjamin Matienzo Int'l, TUC, -26.835731, -65.108125
+Aeroport Tunis, TUN, 36.847448, 10.217699
+Tucson Int'l, TUS, 32.120352, -110.937713
+Chinggis Khaan Int'l, ULN, 47.852526, 106.762874
+Urumqi Diwopu Int'l, URC, 43.898338, 87.467130
+Bauerfield Int'l, VLI, -17.701699, 168.319623
+Wewak Int'l, WWK, -3.580227, 143.669102
+Chalons Vatry, XCR, 48.780395, 4.191120
+Xiamen Gaoqi Int'l, XMN, 24.537193, 118.126969
+Yap Int'l, YAP, 9.497917, 138.086430
+Playa de Oro Int'l, ZLO, 19.148086, -104.560095
+Cayenne – Rochambeau, CAY, 4.821267, -52.363807
+Irkutsk N.W., UIIR, 52.361648, 104.197359
+Shijiazhuang Zhengding Int'l, SJW, 38.278141, 114.692267
+Heydar Aliyev Int'l, GYD, 40.462747, 50.049839
+Lakatamia Airbase, LAK, 35.106345, 33.322201
+Cabo Frio Int'l, CFB, -22.925632, -42.079252
+Helsinki-Malmi, HEM, 60.249378, 25.045535
+Luxembourg-Findel, LUX, 49.634304, 6.216421
+Venice Marco Polo, VCE, 45.504848, 12.341067
+Yangyang Int'l, YNY, 38.058782, 128.662989
+Tabatinga Int'l, TBT, -4.250325, -69.939474
+Boa Vista Int'l, BVB, 2.841195, -60.692221
+Gran Canaria, LPA, 27.936890, -15.389925
+Com. Armando Tola Int'l, ING, -50.283901, -72.053857
+Stockholm-Skavsta, NYO, 58.785104, 16.921606
+Polonia Int'l, MES, 3.566592, 98.676193
+Bangui M'Poko Int'l, BGF, 4.398852, 18.524124
+Hangzhou Xiaoshan Int'l, HGH, 30.235186, 120.432097
+Cassidy Int'l, CXI, 1.986161, -157.349778
+Siauliai Int'l, SQQ, 55.903769, 23.383189
+Niue Int'l, IUE, -19.076713, -169.926130
+Guarani Int'l, AGT, -25.456857, -54.839400
+Rodriguez Ballon Int'l, AQP, -16.344552, -71.567934
+Vladivostok Int'l, VVO, 43.377649, 132.139842
+Pristina, PRN, 42.585033, 21.030269
+Deurne, ANR, 51.189129, 4.450923
+Gen. Marquez de Leon Int'l, LAP, 24.076090, -110.367198
+Harbin Taiping, HRB, 45.620601, 126.236983
+Trivandrum Int'l, TRV, 8.476510, 76.918903
+Adnan Menderes, ADB, 38.291235, 27.149298
+Nanjing Lukou Int'l, NKG, 31.735325, 118.866102
+Freeport Int'l, FPO, 26.548247, -78.703934
+Tripoli Int'l, TIP, 32.669170, 13.144259
+Gander Int'l, YQX, 48.946598, -54.575572
+Doha Int'l, DOH, 25.268246, 51.558549
+Albuquerque Int'l, ABQ, 35.049158, -106.616685
+V.C. Bird Int'l, ANU, 17.140360, -61.792368
+Faleolo, APW, -13.832501, -171.997322
+Asyut, ATZ, 27.050816, 31.016249
+Bahrain Int'l, BAH, 26.269697, 50.626003
+Bradley Int'l, BDL, 41.930316, -72.685395
+Grantley Adams Int'l, BGI, 13.079661, -59.487419
+Yundum Int'l, BJL, 13.343860, -16.652313
+Bujumbura Int'l, BJM, -3.322044, 29.320984
+Chileka Int'l, BLZ, -15.681384, 34.971944
+Broome Int'l, BME, -17.952576, 122.233851
+Bandar Abbass Int'l, BND, 27.210326, 56.368886
+Basrah Int'l, BSR, 30.552799, 47.668377
+Ciudad Juarez Int'l, CJS, 31.635757, -106.435847
+Katunayake Int'l, CMB, 7.178077, 79.885257
+Cairns Int'l, CNS, -16.876742, 145.753585
+Chiang Mai Int'l, CNX, 18.768847, 98.968118
+City of Colorado Springs, COS, 38.797425, -104.700880
+Ign. Alberto Ongay Int'l, CPE, 19.814225, -90.503628
+Changsha Huanghua Int'l, CSX, 28.189922, 113.214054
+Greater Cincinnati Int'l, CVG, 39.055419, -84.656170
+Da Nang, DAD, 16.053144, 108.202706
+Dallas Love Field, DAL, 32.844425, -96.849864
+Damascus Int'l, DAM, 33.411437, 36.512895
+Enrique Malek Int'l, DAV, 8.391261, -82.431758
+Aba Tenna D. Yilma Int'l, DIR, 9.612678, 41.857757
+Bali Int'l, DPS, -8.744757, 115.162323
+Des Moines Int'l, DSM, 41.532790, -93.648461
+Entebbe Int'l, EBB, 0.044941, 32.442757
+Kisangani Bangoka Int'l, FKI, 0.492225, 25.330271
+Fuzhou Changle Int'l, FOC, 25.931823, 119.668044
+Lokpriya G. Bordoloi Int'l, GAU, 26.105248, 91.588229
+Gdansk Lech Walesa, GDN, 54.380703, 18.468442
+Point Salines Int'l, GND, 12.007268, -61.785853
+Nizhny Novgorod Int'l, GOJ, 56.218553, 43.789634
+Gen. Jose M. Yanez Int'l, GYM, 27.969455, -110.921651
+Hohhot Baita Int'l, HET, 40.854060, 111.814682
+Helena Reg., HLN, 46.610204, -111.989897
+Gen. Ignacio P. Garcia Int'l, HMO, 29.090077, -111.051902
+Dulles Int'l, IAD, 38.952774, -77.447793
+Hilo Int'l, ITO, 19.714798, -155.039630
+Jackson Int'l, JAN, 32.310060, -90.075099
+Jacksonville Int'l, JAX, 30.491353, -81.683577
+Kuching Int'l, KCH, 1.487208, 110.341837
+Kigali Int'l, KGL, -1.963654, 30.134877
+Balice, KRK, 50.072263, 19.800977
+Kurumoch, KUF, 53.508385, 50.147266
+Guilin Liangjiang Int'l, KWL, 25.217606, 110.046893
+Laoag Int'l, LAO, 18.182418, 120.533876
+LaGuardia, LGA, 40.774554, -73.871986
+London Gatwick, LGW, 51.155757, -0.162962
+Ljubljana, LJU, 46.230545, 14.454813
+Amausi Int'l, LKO, 26.763933, 80.884172
+La Plata, LPG, -34.965544, -57.895382
+Gen. Sevando Canales, MAM, 25.770841, -97.530822
+Manchester Int'l, MAN, 53.362490, -2.273372
+Kansas City Int'l, MCI, 39.297896, -94.715915
+Seeb Int'l, MCT, 23.588570, 58.290480
+Habib Bourguiba Int'l, MIR, 35.760710, 10.753368
+Marseille Provence Airport, MRS, 43.441060, 5.221379
+Quetzalcoatl Int'l, NLD, 27.449690, -99.568008
+Nanning Wuwu Int'l, NNG, 22.612037, 108.168012
+Xoxocotlan Int'l, OAX, 17.000559, -96.721796
+Kahului, OGG, 20.893289, -156.437430
+Will Rogers, OKC, 35.395277, -97.596118
+Norfolk Int'l, ORF, 36.898239, -76.204423
+Palm Beach Int'l, PBI, 26.688442, -80.090189
+Pengel Int'l, PBM, 5.456000, -55.199911
+Bolshesavino, PEE, 57.919771, 56.019560
+Penang Int'l, PEN, 5.292656, 100.265786
+Port Harcourt Int'l, PHC, 5.007003, 6.949897
+Port Hedland Int'l, PHE, -20.378127, 118.631798
+Pierre Regional, PIR, 44.380153, -100.292642
+Greater Pittsburgh Int'l, PIT, 40.496052, -80.256129
+Pago Pago Int'l, PPG, -14.329064, -170.713307
+Birmingham Int'l, BHX, 52.452909, -1.733732
+Roberts Int'l, ROB, 6.241835, -10.353085
+Raipur, RPR, 21.185987, 81.740378
+El Salvador Int'l, SAL, 13.444748, -89.057204
+San Diego Int'l, SAN, 32.732265, -117.197511
+San Antonio Int'l, SAT, 29.526620, -98.471970
+Savannah Int'l, SAV, 32.135642, -81.209965
+Antonio Maceo, SCU, 19.972429, -75.839888
+Ponciano Arriaga Int'l, SLP, 22.255713, -100.936478
+Sacramento Int'l, SMF, 38.692724, -121.587895
+Cibao Int'l, STI, 19.465922, -70.694178
+Koltsovo, SVX, 56.732246, 60.805803
+Syracuse Hancock Int'l, SYR, 43.131784, -76.113079
+Tabriz, TBZ, 38.131111, 46.244713
+Torreon Int'l, TRC, 25.563216, -103.398788
+Tulsa Int'l, TUL, 36.190128, -95.889882
+Mcghee Tyson, TYS, 35.805745, -83.989938
+Ufa Int'l, UFA, 54.565132, 55.884077
+Hewanorra Int'l, UVF, 13.736524, -60.949974
+Windhoek Hosea Kutako Int'l, WDH, -22.486953, 17.463226
+Sault Ste Marie, YAM, 46.485418, -84.500609
+Dawson Cr., YDQ, 55.739412, -120.185596
+Edmonton Int'l, YEG, 53.307200, -113.584493
+Halifax Int'l, YHZ, 44.886545, -63.514965
+Kamloops, YKA, 50.705196, -120.441735
+Sudbury, YSB, 46.622751, -80.795775
+Saint John, YSJ, 45.329231, -65.890557
+Prince George, YXS, 53.884249, -122.674015
+Victoria Int'l, YYJ, 48.640529, -123.430625
+Zamboanga Int'l, ZAM, 6.919758, 122.062432
+Lanzhou Zhongchuan, ZGC, 36.507884, 103.615415
+Albany Int'l, ALB, 42.745662, -73.809352
+General Mitchell Int'l, MKE, 42.947920, -87.902106
+Wang-Chia Tun Airbase, NULL, 30.601714, 114.246947
+Sanya Phoenix Int'l, SYX, 18.309096, 109.408239
+Lhasa Gonggar, LXA, 29.293694, 90.900561
+Hotan, HTN, 37.040036, 79.872301
+Dresden, DRS, 51.125091, 13.764967
+Kenitra Air Base, NNA, 34.298667, -6.597754
+Annemasse, QNJ, 46.195728, 6.264911
+Nogales Int'l, NOG, 31.225537, -110.972721
+Strasbourg, SXB, 48.544696, 7.627842
+Cologne/Bonn, CGN, 50.878260, 7.122360
+Kimhae Int'l, PUS, 35.170284, 128.948801
+Jeju Int'l, CJU, 33.524717, 126.491629
+Stavanger Sola, SVG, 58.882156, 5.629810
+Trondheim Vaernes, TRD, 63.472029, 10.916810
+Corumba Int'l, CMG, -19.014166, -57.663608
+Madeira, FNC, 32.693364, -16.775637
+Foz do Iguaçu Int'l, IGU, -25.597683, -54.488592
+Gov. Jorge Teixeira de Oliveira Int'l, PVH, -8.714425, -63.898463
+Bilbao, BIO, 43.305083, -2.906090
+Palma de Mallorca, PMI, 39.565776, 2.729977
+Tenerife N., TFN, 28.487577, -16.346318
+Gothenburg, GOT, 57.685749, 12.293827
+Lulea, LLA, 65.549036, 22.123027
+Abu Dhabi Int'l, AUH, 24.427227, 54.646329
+Mohamed Boudiaf Int'l, CZL, 36.283441, 6.621947
+Aswan Int'l, ASW, 23.968277, 32.824437
+Rovaniemi, RVN, 66.559556, 25.829441
+Cheddi Jagan Int'l, GEO, 6.498553, -58.254119
+Cochin Int'l, COK, 10.155119, 76.390520
+Eldoret Int'l, EDL, 0.405071, 35.223693
+Incheon Int'l, ICN, 37.449209, 126.450876
+Federal de Bachigualato Int'l, CUL, 24.766804, -107.469864
+Benazir Bhutto Int'l, ISB, 33.607446, 73.100794
+Brussels, BRU, 50.897295, 4.484640
+Abuja Int'l, ABV, 9.004377, 7.270260
+Arcata-Eureka, ACV, 40.971925, -124.107066
+Austin-Bergstrom Int'l, AUS, 30.202108, -97.666837
+Antalya, AYT, 36.915323, 30.802553
+Belfast Int'l, BFS, 54.661558, -6.216169
+Orio Al Serio, BGY, 45.665498, 9.698918
+Kota Kinabalu Int'l, BKI, 5.922894, 116.051088
+Bengaluru Int'l, BLR, 13.200611, 77.709558
+Canberra Int'l, CBR, -35.307186, 149.190761
+Port Columbus Int'l, CMH, 39.998118, -82.884031
+Mohamed V Int'l, CMN, 33.374727, -7.581456
+Dusseldorf Int'l, DUS, 51.278182, 6.764944
+Esenboga Int'l, ESB, 40.115128, 32.993010
+Hamilton Int'l, HLZ, -37.865841, 175.336221
+Rajiv Gandhi Int'l, HYD, 17.235983, 78.429536
+John F Kennedy Int'l, JFK, 40.645960, -73.786327
+Boryspil Int'l, KBP, 50.340902, 30.895162
+Khartoum, KRT, 15.592223, 32.550153
+Dane Cty. Reg. (Truax Field), MSN, 43.136308, -89.345785
+Minsk Int'l, MSQ, 53.889379, 28.034193
+Palermo, PMO, 38.186335, 13.105531
+T.F. Green, PVD, 41.726002, -71.435784
+Southwest Florida Int'l, RSW, 26.527929, -81.755123
+Shenyang Taoxian Int'l, SHE, 41.634789, 123.487974
+Sharjah Int'l, SHJ, 25.321196, 55.520507
+San Jose Int'l, SJC, 37.369491, -121.929429
+John Wayne, SNA, 33.679486, -117.861489
+Stuttgart, STR, 48.690105, 9.193951
+Nacional Tobias Bolanos, SYQ, 9.958279, -84.138609
+Shenzhen Bao'an Int'l, SZX, 22.646508, 113.815853
+Louisville Int'l, SDF, 38.186021, -85.741703
+Geneva, GVA, 46.231010, 6.107946
+Lyon-Saint Exupery, LYS, 45.721019, 5.075944
+Kansai Int'l, KIX, 34.434794, 135.244460
+Lisbon Portela, LIS, 38.770762, -9.130694
+Tancredo Neves Int'l, CNF, -19.632782, -43.963582
+Bromma, BMA, 59.355590, 17.945618
+Juanda Int'l, SUB, -7.383579, 112.777035
+Astor Piazzolla Int'l, MDQ, -37.933216, -57.581615
+Owen Roberts Int'l, GCM, 19.295911, -81.357671
+Zhengzhou Xinzheng Int'l, CGO, 34.526303, 113.841831
+Dalian Zhoushuizi Int'l, DLC, 38.961570, 121.538914
+Heraklion Int'l, HER, 35.336902, 25.174056
+Tbilisi Int'l, TBS, 41.669442, 44.964615
+Cascais, XXC, 38.723535, -9.354582
+Kaohsiung Int'l, KHH, 22.571706, 120.345156
+Sadiq Abubakar III, SKO, 12.917482, 5.200226
+Mariscal Sucre Int'l, UIO, -0.145552, -78.489993
+Karachi Civil, KHI, 24.898524, 67.152128
+Kishinev S.E., KIV, 46.934162, 28.936049
+Jorge Chavez, LIM, -12.023716, -77.107566
+Thunder Bay Int'l, YQT, 48.371881, -89.312142
+Vilnius, VNO, 54.643055, 25.280716
+Hsien Yang, XIY, 34.442939, 108.755811
+Del Norte Int'l, NTR, 25.859874, -100.238394
+Fua'amotu Int'l, TBU, -21.248610, -175.135635
+Esfahan Int'l, IFN, 32.746081, 51.876392
+Harare Int'l, HRE, -17.922800, 31.101400
+Kuwait Int'l, KWI, 29.239680, 47.971483
+Macdonald-Cartier Int'l, YOW, 45.320135, -75.664893
+Kabul Int'l, KBL, 34.563398, 69.210074
+Abidjan Port Bouet, ABJ, 5.254398, -3.932219
+General Juan N Alvarez Int'l, ACA, 16.761967, -99.754509
+Kotoka Int'l, ACC, 5.606982, -0.171403
+Bole Int'l, ADD, 8.981730, 38.793190
+Aden Int'l, ADE, 12.827800, 45.030602
+Adelaide Int'l, ADL, -34.940586, 138.532101
+Almaty Int'l, ALA, 43.346494, 77.012046
+Houari Boumediene, ALG, 36.699721, 3.212074
+Aleppo Int'l, ALP, 36.184624, 37.227341
+Sardar Vallabhbhai Patel Int'l, AMD, 23.070745, 72.620900
+Cerro Moreno Int'l, ANF, -23.448955, -70.440991
+Ashkhabad Northwest, ASB, 37.984853, 58.363966
+Yohannes Iv Int'l, ASM, 15.293616, 38.906354
+Silvio Pettirossi Int'l, ASU, -25.241659, -57.513908
+Bermuda Int'l, BDA, 32.359174, -64.702774
+Surcin, BEG, 44.819077, 20.291285
+Beirut Int'l, BEY, 33.825440, 35.493085
+Bairagarh, BHO, 23.285568, 77.340871
+Bamako Senou, BKO, 12.539336, -7.947272
+Nashville Int'l, BNA, 36.131488, -86.669287
+Brisbane Int'l, BNE, -27.385397, 153.120256
+Boise Air Terminal, BOI, 43.568959, -116.221841
+Wiley Post Will Rogers Mem., BRW, 71.289299, -156.771835
+Greater Buffalo Int'l, BUF, 42.934034, -78.731997
+Bulawayo, BUQ, -20.015568, 28.622552
+Brunei Int'l, BWN, 4.945475, 114.933119
+Guangzhou Baiyun Int'l, CAN, 23.389151, 113.297517
+Carriel Sur Int'l, CCP, -36.776373, -73.062106
+Netaji Subhash Chandra Bose Int'l, CCU, 22.645389, 88.440001
+Chittagong, CGP, 22.245566, 91.814711
+Christchurch Int'l, CHC, -43.488549, 172.538676
+Conakry, CKY, 9.574181, -13.621066
+Hopkins Int'l, CLE, 41.411192, -81.838441
+Alfonso Bonilla Aragon Int'l, CLO, 3.543286, -76.385071
+Cotonou Cadjehon, COO, 6.358247, 2.383800
+Ingeniero Ambrosio L.V. Taravella Int'l, COR, -31.315681, -64.212316
+Rafael Nunez, CTG, 10.444938, -75.512335
+Cancun, CUN, 21.040197, -86.874417
+General R F Villalobos Int'l, CUU, 28.703998, -105.969205
+Zia Int'l Dhaka, DAC, 23.848124, 90.404924
+Darwin Int'l, DRW, -12.408056, 130.877501
+Louis Botha, DUR, -29.965914, 30.945708
+Lubumbashi Luano Int'l, FBM, -11.590800, 27.529200
+Saiss, FEZ, 33.930525, -4.982146
+Kinshasa N Djili Int'l, FIH, -4.389169, 15.446516
+Freetown Lungi, FNA, 8.615424, -13.200230
+Sunan, FNJ, 39.200177, 125.675322
+Vasilyevka, FRU, 43.055453, 74.468800
+Sir Seretse Khama Int'l, GBE, -24.558072, 25.924381
+Don Miguel Hidalgo Int'l, GDL, 20.524686, -103.300766
+Glasgow Int'l, GLA, 55.864183, -4.431678
+La Aurora, GUA, 14.588161, -90.530181
+Simon Bolivar Int'l, GYE, -2.158338, -79.887010
+Noi Bai, HAN, 21.214560, 105.803759
+Jose Marti Int'l, HAV, 22.997353, -82.407421
+Borg El Arab Int'l, HBE, 30.918371, 29.692666
+King Abdul Aziz Int'l, JED, 21.670686, 39.150500
+Kano Mallam Aminu Int'l, KAN, 12.045707, 8.522137
+Kashi, KHG, 39.537969, 76.013015
+Norman Manley Int'l, KIN, 17.937575, -76.778690
+Tribhuvan Int'l, KTM, 27.700282, 85.357140
+Luanda 4 de Fevereiro, LAD, -8.848313, 13.234796
+Pulkovo 2, LED, 59.805406, 30.307098
+Allama Iqbal Int'l, LHE, 31.520630, 74.410881
+Kamuzu Int'l, LLW, -13.788623, 33.782789
+Lagos Murtala Muhammed, LOS, 6.578259, 3.321124
+El Alto Int'l, LPB, -16.509879, -68.178006
+Lusaka Int'l, LUN, -15.326852, 28.445544
+Luxor, LXR, 25.673035, 32.703297
+Chennai Int'l, MAA, 12.982530, 80.163776
+La Chinita Int'l, MAR, 10.555759, -71.723769
+Jose Maria Cordova, MDE, 6.171002, -75.426956
+Memphis Int'l, MEM, 35.044410, -89.981628
+Augusto Cesar Sandino Int'l, MGA, 12.144636, -86.171285
+Mashhad, MHD, 36.227550, 59.642194
+Miami Int'l, MIA, 25.794941, -80.278972
+Lic M Crecencio Rejon Int'l, MID, 20.933860, -89.663024
+Luqa, MLA, 35.848931, 14.495264
+Moi Int'l, MBA, -4.032653, 39.602663
+Moshoeshoe I Int'l, MSU, -29.455574, 27.559216
+New Orleans Int'l, MSY, 29.985114, -90.256694
+Multan, MUX, 30.195078, 71.418995
+Carrasco Int'l, MVD, -34.841049, -56.026636
+General Rafael Buelna Int'l, MZT, 23.166596, -106.270017
+Nassau Int'l, NAS, 25.048691, -77.464847
+Ndjamena, NDJ, 12.129540, 15.033045
+Niamey, NIM, 13.476757, 2.177307
+Mactan-Cebu Int'l, CEB, 10.315876, 123.979135
+Nova Lisboa, NOV, -12.802541, 15.749762
+Eppley Airfield, OMA, 41.299711, -95.899416
+Nome, OME, 64.507221, -165.441642
+Ouagadougou, OUA, 12.353580, -1.513805
+Mais Gate Int'l, PAP, 18.575683, -72.294478
+Puebla, PBC, 19.163794, -98.375760
+Portland Int'l, PDX, 45.588957, -122.592739
+Perth Int'l, PER, -31.941130, 115.974225
+H F Verwoerd, PLZ, -33.984088, 25.611778
+El Tepual Int'l, PMC, -41.433382, -73.098384
+Pochentong, PNH, 11.552645, 104.845028
+Pune, PNQ, 18.579177, 73.908984
+Port Moresby Int'l, POM, -9.438653, 147.211251
+Tocumen Int'l, PTY, 9.066872, -79.387135
+Carlos Ibanez de Campo Int'l, PUQ, -53.005070, -70.843124
+Durham Int'l, RDU, 35.875232, -78.791381
+Mingaladon, RGN, 16.901154, 96.134195
+Riga, RIX, 56.922004, 23.979379
+Sanaa Int'l, SAH, 15.473903, 44.224647
+Baghdad Int'l, SDA, 33.268163, 44.228913
+De Las Americas Int'l, SDQ, 18.430220, -69.676473
+Tan Son Nhat, SGN, 10.816301, 106.664246
+Thessaloniki, SKG, 40.523874, 22.976435
+Vrazhdebna, SOF, 42.689184, 23.402452
+Surat, STV, 21.120450, 72.742438
+Nausori Int'l, SUV, -18.045900, 178.560048
+Shiraz Int'l, SYZ, 29.545801, 52.589771
+Gen Francisco J Mina Int'l, TAM, 22.289332, -97.869814
+Toncontin Int'l, TGU, 14.059985, -87.219212
+Mehrabad Int'l, THR, 35.691374, 51.320807
+Tirane Rinas, TIA, 41.420851, 19.715032
+General Abelardo L Rodriguez Int'l, TIJ, 32.546050, -116.975476
+Jose Maria Morelos Y Pavon, TLC, 19.338688, -99.570649
+Ulemiste, TLL, 59.416501, 24.798965
+Ben Gurion, TLV, 32.000747, 34.870850
+Sao Tome Salazar, TMS, 0.374744, 6.712822
+Antananarivo Ivato, TNR, -18.799335, 47.475354
+Tampa Int'l, TPA, 27.980040, -82.534824
+Zim Valencia, VLN, 10.154006, -67.922362
+Gumrak, VOG, 48.791676, 44.354768
+Vientiane, VTE, 17.975460, 102.568238
+Viru Viru Int'l, VVI, -17.647947, -63.140389
+Wellington Int'l, WLG, -41.328989, 174.811665
+Prince Rupert, YPR, 54.292000, -130.445587
+Windsor, YQG, 42.265878, -82.960088
+Regina, YQR, 50.433219, -104.655434
+Vancouver Int'l, YVR, 49.193559, -123.180867
+Winnipeg Int'l, YWG, 49.903330, -97.226769
+John G Diefenbaker Int'l, YXE, 52.170144, -106.690182
+Whitehorse Int'l, YXY, 60.714152, -135.076210
+Calgary Int'l, YYC, 51.130857, -114.010561
+Charlottetown, YYG, 46.285813, -63.131234
+Churchill, YYQ, 58.749724, -94.081364
+St John's Int'l, YYT, 47.613118, -52.743334
+Yellowknife, YZF, 62.470737, -114.437846
+Zagreb, ZAG, 45.733327, 16.061514
+Zanzibar, ZNZ, -6.218570, 39.222332
+Reykjavik Air Terminal, REK, 64.131873, -21.946634
+Arkhangelsk-Talagi, ARH, 64.596744, 40.713347
+Kazan Int'l, KZN, 55.608060, 49.298446
+Paris Orly, ORY, 48.731303, 2.367379
+Quebec, YQB, 46.791568, -71.383928
+Montreal-Trudeau, YUL, 45.458351, -73.749316
+Narita Int'l, NRT, 35.764056, 140.384402
+Chubu Centrair Int'l, NGO, 34.859030, 136.814771
+Okadama, OKD, 43.110650, 141.382100
+Bergen Flesland, BGO, 60.289061, 5.227253
+Tromso Langnes, TOS, 69.679679, 18.907262
+Val de Caes Int'l, BEL, -1.389746, -48.479560
+Campo Grande Int'l, CGR, -20.457272, -54.668950
+Afonso Pena Int'l, CWB, -25.536000, -49.173709
+Pinto Martins Int'l, FOR, -3.778595, -38.540747
+Sao Paulo-Guarulhos Int'l, GRU, -23.426116, -46.481754
+Santa Genoveva, GYN, -16.632367, -49.226646
+Salgado Filho Int'l, POA, -29.990193, -51.177041
+Gilberto Freyre Int'l, REC, -8.131626, -34.918267
+Deputado Luis Eduardo Magalhaes Int'l, SSA, -12.914361, -38.334799
+El Plumerillo, MDZ, -32.827800, -68.798484
+Eduardo Gomes Int'l, MAO, -3.032139, -60.046065
+Yaounde Nsimalen Int'l, NSI, 3.714845, 11.547994
+Shanghai Pudong Int'l, PVG, 31.152309, 121.801519
+Marka Int'l, ADJ, 31.974199, 35.984105
+Male Int'l, MLE, 4.188701, 73.527390
+Gen. Heriberto Jara Int'l, VER, 19.142424, -96.183570
+Osvaldo Vieira Int'l, OXB, 11.888923, -15.651186
+Francisco Bangoy Int'l, DVO, 7.130537, 125.645067
+Seychelles Int'l, SEZ, -4.671069, 55.511552
+Leopold Sedar Senghor Int'l, DKR, 14.745631, -17.490408
+Port Sudan New Int'l, PZU, 19.434105, 37.238748
+Tashkent Int'l, TAS, 41.262234, 69.266614
+Copenhagen, CPH, 55.628502, 12.649351
+Aeroportul National Bucuresti-Baneasa, BBU, 44.497041, 26.085725
+Ferihegy, BUD, 47.433274, 19.262230
+Chongqing Jiangbei Int'l, CKG, 29.724042, 106.638020
+Douglas Int'l, CLT, 35.220428, -80.943928
+Detroit Metro, DTW, 42.225720, -83.347894
+Dublin, DUB, 53.427008, -6.243885
+Fairbanks Int'l, FAI, 64.818098, -147.865721
+Hamburg, HAM, 53.632001, 10.005648
+Kuala Lumpur Int'l, KUL, 2.747513, 101.713886
+Mccarran Int'l, LAS, 36.084960, -115.151324
+Orlando Int'l, MCO, 28.431151, -81.307371
+Minneapolis St. Paul Int'l, MSP, 44.882026, -93.208100
+Franz-Josef-Strauss, MUC, 48.353837, 11.788063
+Philadelphia Int'l, PHL, 39.876087, -75.242986
+Sky Harbor Int'l, PHX, 33.435861, -112.013635
+Salt Lake City Int'l, SLC, 40.786729, -111.981985
+Lambert St Louis Int'l, STL, 38.742716, -90.365955
+Okecie Int'l, WAW, 52.171027, 20.972726
+Zurich Int'l, ZRH, 47.452390, 8.562213
+Gosselies, CRL, 50.457130, 4.454374
+Munich Freight Terminal, MUCf, 48.349796, 11.769483
+Barcelona, BCN, 41.303155, 2.078003
+Ruzyn, PRG, 50.107651, 14.267485
+Hong Kong Int'l, HKG, 22.315333, 113.935016
+Taoyuan, TPE, 25.076741, 121.231370
+Schiphol, AMS, 52.308932, 4.764377
+Singapore Changi, SIN, 1.356161, 103.986414
+London Heathrow, LHR, 51.470996, -0.453157
+Auckland Int'l, AKL, -37.006355, 174.791719
+Anchorage Int'l, ANC, 61.172894, -149.981725
+Hartsfield-Jackson Atlanta Int'l, ATL, 33.640529, -84.425397
+Beijing Capital, PEK, 40.078766, 116.588174
+Eldorado Int'l, BOG, 4.698833, -74.143372
+Chhatrapati Shivaji Int'l, BOM, 19.095102, 72.874564
+Gen E L Logan Int'l, BOS, 42.366566, -71.016407
+Baltimore-Washington Int'l Thurgood Marshall, BWI, 39.179394, -76.668643
+Cairo Int'l, CAI, 30.111990, 31.399743
+Casablanca-Anfa, CAS, 33.562788, -7.663219
+Simon Bolivar Int'l, CCS, 10.597355, -67.005749
+Cape Town Int'l, CPT, -33.970447, 18.597657
+Chengdushuang Liu, CTU, 30.581071, 103.956136
+Indira Gandhi Int'l, DEL, 28.559204, 77.087836
+Denver Int'l, DEN, 39.849461, -104.673797
+Dallas-Ft. Worth Int'l, DFW, 32.900151, -97.040371
+Don Muang Int'l, DMK, 13.920277, 100.602579
+Dubai Int'l, DXB, 25.252566, 55.354077
+Newark Int'l, EWR, 40.690480, -74.177147
+Ministro Pistarini Int'l, EZE, -34.813647, -58.541246
+Fort Lauderdale Hollywood Int'l, FLL, 26.071710, -80.145259
+George Bush Intercontinental, IAH, 29.986591, -95.333705
+Ataturk Hava Limani, IST, 40.977839, 28.819549
+OR Tambo Int'l, JNB, -26.132095, 28.231989
+Juneau Int'l, JNU, 58.358944, -134.583573
+Los Angeles Int'l, LAX, 33.944174, -118.402469
+Linate, LIN, 45.460394, 9.279966
+Melbourne Int'l, MEL, -37.669941, 144.848998
+Lic Benito Juarez Int'l, MEX, 19.435470, -99.082608
+Ninoy Aquino Int'l, MNL, 14.506832, 121.004122
+Jomo Kenyatta Int'l, NBO, -1.330530, 36.925089
+Honolulu Int'l, HNL, 21.332022, -157.919783
+Chicago O'Hare Int'l, ORD, 41.976529, -87.905134
+King Khalid Int'l, RUH, 24.959032, 46.701829
+Arturo Merino Benitez Int'l, SCL, -33.396834, -70.793686
+Tacoma Int'l, SEA, 47.443582, -122.302290
+San Francisco Int'l, SFO, 37.617025, -122.383470
+Hongqiao, SHA, 31.187257, 121.341184
+Sheremtyevo, SVO, 55.966447, 37.415969
+Toronto-Pearson Int'l, YYZ, 43.680960, -79.611419
+Kingsford Smith, SYD, -33.936583, 151.166067
+Helsinki Vantaa, HEL, 60.318716, 24.968208
+Charles de Gaulle Int'l, CDG, 49.014420, 2.541868
+Berlin-Tegel Int'l, TXL, 52.554429, 13.290309
+Vienna Schwechat Int'l, VIE, 48.119756, 16.560768
+Frankfurt Int'l, FRA, 50.050677, 8.571823
+Leonardo da Vinci Int'l, FCO, 41.795079, 12.250101
+Osaka Int'l, ITM, 34.790198, 135.442475
+Gimpo Int'l, GMP, 37.557301, 126.802393
+Oslo Gardermoen, OSL, 60.193578, 11.099103
+Juscelino Kubitschek Int'l, BSB, -15.869999, -47.920789
+Congonhas Int'l, CGH, -23.626859, -46.659116
+Rio de Janeiro-Antonio Carlos Jobim Int'l, GIG, -22.812344, -43.248381
+Madrid Barajas, MAD, 40.468128, -3.569027
+Luis Munoz Marin, SJU, 18.438077, -66.004230
+Arlanda, ARN, 59.651120, 17.930730
+Soekarno-Hatta Int'l, CGK, -6.126603, 106.654296
+Eleftherios Venizelos Int'l, ATH, 37.936233, 23.947116

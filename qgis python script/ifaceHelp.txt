@@ -1,0 +1,739 @@
+﻿help(iface)
+Help on QgisInterface in module qgis._gui object:
+
+class QgisInterface(PyQt4.QtCore.QObject)
+ |  QgisInterface()
+ |  
+ |  Method resolution order:
+ |      QgisInterface
+ |      PyQt4.QtCore.QObject
+ |      sip.wrapper
+ |      sip.simplewrapper
+ |      __builtin__.object
+ |  
+ |  Methods defined here:
+ |  
+ |  actionAbout(...)
+ |      QgisInterface.actionAbout() -> QAction
+ |  
+ |  actionAddAllToOverview(...)
+ |      QgisInterface.actionAddAllToOverview() -> QAction
+ |  
+ |  actionAddFeature(...)
+ |      QgisInterface.actionAddFeature() -> QAction
+ |  
+ |  actionAddOgrLayer(...)
+ |      QgisInterface.actionAddOgrLayer() -> QAction
+ |  
+ |  actionAddPart(...)
+ |      QgisInterface.actionAddPart() -> QAction
+ |  
+ |  actionAddPgLayer(...)
+ |      QgisInterface.actionAddPgLayer() -> QAction
+ |  
+ |  actionAddRasterLayer(...)
+ |      QgisInterface.actionAddRasterLayer() -> QAction
+ |  
+ |  actionAddRing(...)
+ |      QgisInterface.actionAddRing() -> QAction
+ |  
+ |  actionAddToOverview(...)
+ |      QgisInterface.actionAddToOverview() -> QAction
+ |  
+ |  actionAddWmsLayer(...)
+ |      QgisInterface.actionAddWmsLayer() -> QAction
+ |  
+ |  actionAllEdits(...)
+ |      QgisInterface.actionAllEdits() -> QAction
+ |  
+ |  actionCancelAllEdits(...)
+ |      QgisInterface.actionCancelAllEdits() -> QAction
+ |  
+ |  actionCancelEdits(...)
+ |      QgisInterface.actionCancelEdits() -> QAction
+ |  
+ |  actionCheckQgisVersion(...)
+ |      QgisInterface.actionCheckQgisVersion() -> QAction
+ |  
+ |  actionCopyFeatures(...)
+ |      QgisInterface.actionCopyFeatures() -> QAction
+ |  
+ |  actionCopyLayerStyle(...)
+ |      QgisInterface.actionCopyLayerStyle() -> QAction
+ |  
+ |  actionCustomProjection(...)
+ |      QgisInterface.actionCustomProjection() -> QAction
+ |  
+ |  actionCutFeatures(...)
+ |      QgisInterface.actionCutFeatures() -> QAction
+ |  
+ |  actionDeletePart(...)
+ |      QgisInterface.actionDeletePart() -> QAction
+ |  
+ |  actionDeleteRing(...)
+ |      QgisInterface.actionDeleteRing() -> QAction
+ |  
+ |  actionDeleteSelected(...)
+ |      QgisInterface.actionDeleteSelected() -> QAction
+ |  
+ |  actionDraw(...)
+ |      QgisInterface.actionDraw() -> QAction
+ |  
+ |  actionDuplicateLayer(...)
+ |      QgisInterface.actionDuplicateLayer() -> QAction
+ |  
+ |  actionExit(...)
+ |      QgisInterface.actionExit() -> QAction
+ |  
+ |  actionFeatureAction(...)
+ |      QgisInterface.actionFeatureAction() -> QAction
+ |  
+ |  actionHelpContents(...)
+ |      QgisInterface.actionHelpContents() -> QAction
+ |  
+ |  actionHideAllLayers(...)
+ |      QgisInterface.actionHideAllLayers() -> QAction
+ |  
+ |  actionHideSelectedLayers(...)
+ |      QgisInterface.actionHideSelectedLayers() -> QAction
+ |  
+ |  actionIdentify(...)
+ |      QgisInterface.actionIdentify() -> QAction
+ |  
+ |  actionLayerProperties(...)
+ |      QgisInterface.actionLayerProperties() -> QAction
+ |  
+ |  actionLayerSaveAs(...)
+ |      QgisInterface.actionLayerSaveAs() -> QAction
+ |  
+ |  actionLayerSelectionSaveAs(...)
+ |      QgisInterface.actionLayerSelectionSaveAs() -> QAction
+ |  
+ |  actionManagePlugins(...)
+ |      QgisInterface.actionManagePlugins() -> QAction
+ |  
+ |  actionMapTips(...)
+ |      QgisInterface.actionMapTips() -> QAction
+ |  
+ |  actionMeasure(...)
+ |      QgisInterface.actionMeasure() -> QAction
+ |  
+ |  actionMeasureArea(...)
+ |      QgisInterface.actionMeasureArea() -> QAction
+ |  
+ |  actionMoveFeature(...)
+ |      QgisInterface.actionMoveFeature() -> QAction
+ |  
+ |  actionNewBookmark(...)
+ |      QgisInterface.actionNewBookmark() -> QAction
+ |  
+ |  actionNewProject(...)
+ |      QgisInterface.actionNewProject() -> QAction
+ |  
+ |  actionNewVectorLayer(...)
+ |      QgisInterface.actionNewVectorLayer() -> QAction
+ |  
+ |  actionNodeTool(...)
+ |      QgisInterface.actionNodeTool() -> QAction
+ |  
+ |  actionOpenFieldCalculator(...)
+ |      QgisInterface.actionOpenFieldCalculator() -> QAction
+ |  
+ |  actionOpenProject(...)
+ |      QgisInterface.actionOpenProject() -> QAction
+ |  
+ |  actionOpenTable(...)
+ |      QgisInterface.actionOpenTable() -> QAction
+ |  
+ |  actionOptions(...)
+ |      QgisInterface.actionOptions() -> QAction
+ |  
+ |  actionPan(...)
+ |      QgisInterface.actionPan() -> QAction
+ |  
+ |  actionPanToSelected(...)
+ |      QgisInterface.actionPanToSelected() -> QAction
+ |  
+ |  actionPasteFeatures(...)
+ |      QgisInterface.actionPasteFeatures() -> QAction
+ |  
+ |  actionPasteLayerStyle(...)
+ |      QgisInterface.actionPasteLayerStyle() -> QAction
+ |  
+ |  actionPluginListSeparator(...)
+ |      QgisInterface.actionPluginListSeparator() -> QAction
+ |  
+ |  actionPrintComposer(...)
+ |      QgisInterface.actionPrintComposer() -> QAction
+ |  
+ |  actionProjectProperties(...)
+ |      QgisInterface.actionProjectProperties() -> QAction
+ |  
+ |  actionQgisHomePage(...)
+ |      QgisInterface.actionQgisHomePage() -> QAction
+ |  
+ |  actionRemoveAllFromOverview(...)
+ |      QgisInterface.actionRemoveAllFromOverview() -> QAction
+ |  
+ |  actionRemoveLayer(...)
+ |      QgisInterface.actionRemoveLayer() -> QAction
+ |  
+ |  actionRollbackAllEdits(...)
+ |      QgisInterface.actionRollbackAllEdits() -> QAction
+ |  
+ |  actionRollbackEdits(...)
+ |      QgisInterface.actionRollbackEdits() -> QAction
+ |  
+ |  actionSaveActiveLayerEdits(...)
+ |      QgisInterface.actionSaveActiveLayerEdits() -> QAction
+ |  
+ |  actionSaveAllEdits(...)
+ |      QgisInterface.actionSaveAllEdits() -> QAction
+ |  
+ |  actionSaveEdits(...)
+ |      QgisInterface.actionSaveEdits() -> QAction
+ |  
+ |  actionSaveMapAsImage(...)
+ |      QgisInterface.actionSaveMapAsImage() -> QAction
+ |  
+ |  actionSaveProject(...)
+ |      QgisInterface.actionSaveProject() -> QAction
+ |  
+ |  actionSaveProjectAs(...)
+ |      QgisInterface.actionSaveProjectAs() -> QAction
+ |  
+ |  actionSelect(...)
+ |      QgisInterface.actionSelect() -> QAction
+ |  
+ |  actionSelectFreehand(...)
+ |      QgisInterface.actionSelectFreehand() -> QAction
+ |  
+ |  actionSelectPolygon(...)
+ |      QgisInterface.actionSelectPolygon() -> QAction
+ |  
+ |  actionSelectRadius(...)
+ |      QgisInterface.actionSelectRadius() -> QAction
+ |  
+ |  actionSelectRectangle(...)
+ |      QgisInterface.actionSelectRectangle() -> QAction
+ |  
+ |  actionShowAllLayers(...)
+ |      QgisInterface.actionShowAllLayers() -> QAction
+ |  
+ |  actionShowBookmarks(...)
+ |      QgisInterface.actionShowBookmarks() -> QAction
+ |  
+ |  actionShowComposerManager(...)
+ |      QgisInterface.actionShowComposerManager() -> QAction
+ |  
+ |  actionShowPythonDialog(...)
+ |      QgisInterface.actionShowPythonDialog() -> QAction
+ |  
+ |  actionShowSelectedLayers(...)
+ |      QgisInterface.actionShowSelectedLayers() -> QAction
+ |  
+ |  actionSimplifyFeature(...)
+ |      QgisInterface.actionSimplifyFeature() -> QAction
+ |  
+ |  actionSplitFeatures(...)
+ |      QgisInterface.actionSplitFeatures() -> QAction
+ |  
+ |  actionSplitParts(...)
+ |      QgisInterface.actionSplitParts() -> QAction
+ |  
+ |  actionToggleEditing(...)
+ |      QgisInterface.actionToggleEditing() -> QAction
+ |  
+ |  actionToggleFullScreen(...)
+ |      QgisInterface.actionToggleFullScreen() -> QAction
+ |  
+ |  actionTouch(...)
+ |      QgisInterface.actionTouch() -> QAction
+ |  
+ |  actionZoomActualSize(...)
+ |      QgisInterface.actionZoomActualSize() -> QAction
+ |  
+ |  actionZoomFullExtent(...)
+ |      QgisInterface.actionZoomFullExtent() -> QAction
+ |  
+ |  actionZoomIn(...)
+ |      QgisInterface.actionZoomIn() -> QAction
+ |  
+ |  actionZoomLast(...)
+ |      QgisInterface.actionZoomLast() -> QAction
+ |  
+ |  actionZoomNext(...)
+ |      QgisInterface.actionZoomNext() -> QAction
+ |  
+ |  actionZoomOut(...)
+ |      QgisInterface.actionZoomOut() -> QAction
+ |  
+ |  actionZoomToLayer(...)
+ |      QgisInterface.actionZoomToLayer() -> QAction
+ |  
+ |  actionZoomToSelected(...)
+ |      QgisInterface.actionZoomToSelected() -> QAction
+ |  
+ |  activeComposers(...)
+ |      QgisInterface.activeComposers() -> list-of-QgsComposerView
+ |  
+ |  activeLayer(...)
+ |      QgisInterface.activeLayer() -> QgsMapLayer
+ |  
+ |  addDatabaseToolBarIcon(...)
+ |      QgisInterface.addDatabaseToolBarIcon(QAction) -> int
+ |  
+ |  addDatabaseToolBarWidget(...)
+ |      QgisInterface.addDatabaseToolBarWidget(QWidget) -> QAction
+ |  
+ |  addDockWidget(...)
+ |      QgisInterface.addDockWidget(Qt.DockWidgetArea, QDockWidget)
+ |  
+ |  addLayerMenu(...)
+ |      QgisInterface.addLayerMenu() -> QMenu
+ |  
+ |  addPluginToDatabaseMenu(...)
+ |      QgisInterface.addPluginToDatabaseMenu(QString, QAction)
+ |  
+ |  addPluginToMenu(...)
+ |      QgisInterface.addPluginToMenu(QString, QAction)
+ |  
+ |  addPluginToRasterMenu(...)
+ |      QgisInterface.addPluginToRasterMenu(QString, QAction)
+ |  
+ |  addPluginToVectorMenu(...)
+ |      QgisInterface.addPluginToVectorMenu(QString, QAction)
+ |  
+ |  addPluginToWebMenu(...)
+ |      QgisInterface.addPluginToWebMenu(QString, QAction)
+ |  
+ |  addProject(...)
+ |      QgisInterface.addProject(QString) -> bool
+ |  
+ |  addRasterLayer(...)
+ |      QgisInterface.addRasterLayer(QString, QString baseName=QString()) -> QgsRasterLayer
+ |      QgisInterface.addRasterLayer(QString, QString, QString) -> QgsRasterLayer
+ |  
+ |  addRasterToolBarIcon(...)
+ |      QgisInterface.addRasterToolBarIcon(QAction) -> int
+ |  
+ |  addRasterToolBarWidget(...)
+ |      QgisInterface.addRasterToolBarWidget(QWidget) -> QAction
+ |  
+ |  addToolBar(...)
+ |      QgisInterface.addToolBar(QString) -> QToolBar
+ |      QgisInterface.addToolBar(QToolBar, Qt.ToolBarArea area=Qt.TopToolBarArea)
+ |  
+ |  addToolBarIcon(...)
+ |      QgisInterface.addToolBarIcon(QAction) -> int
+ |  
+ |  addToolBarWidget(...)
+ |      QgisInterface.addToolBarWidget(QWidget) -> QAction
+ |  
+ |  addUserInputWidget(...)
+ |      QgisInterface.addUserInputWidget(QWidget)
+ |  
+ |  addVectorLayer(...)
+ |      QgisInterface.addVectorLayer(QString, QString, QString) -> QgsVectorLayer
+ |  
+ |  addVectorToolBarIcon(...)
+ |      QgisInterface.addVectorToolBarIcon(QAction) -> int
+ |  
+ |  addVectorToolBarWidget(...)
+ |      QgisInterface.addVectorToolBarWidget(QWidget) -> QAction
+ |  
+ |  addWebToolBarIcon(...)
+ |      QgisInterface.addWebToolBarIcon(QAction) -> int
+ |  
+ |  addWebToolBarWidget(...)
+ |      QgisInterface.addWebToolBarWidget(QWidget) -> QAction
+ |  
+ |  addWindow(...)
+ |      QgisInterface.addWindow(QAction)
+ |  
+ |  advancedDigitizeToolBar(...)
+ |      QgisInterface.advancedDigitizeToolBar() -> QToolBar
+ |  
+ |  attributesToolBar(...)
+ |      QgisInterface.attributesToolBar() -> QToolBar
+ |  
+ |  buildStyleSheet(...)
+ |      QgisInterface.buildStyleSheet(dict-of-QString-QVariant)
+ |  
+ |  cadDockWidget(...)
+ |      QgisInterface.cadDockWidget() -> QgsAdvancedDigitizingDockWidget
+ |  
+ |  childEvent(...)
+ |  
+ |  composerAdded = <unbound signal composerAdded>
+ |  composerRemoved = <unbound signal composerRemoved>
+ |  composerWillBeRemoved = <unbound signal composerWillBeRemoved>
+ |  connectNotify(...)
+ |  
+ |  createNewComposer(...)
+ |      QgisInterface.createNewComposer(QString title=QString()) -> QgsComposerView
+ |  
+ |  currentLayerChanged = <unbound signal currentLayerChanged>
+ |  customEvent(...)
+ |  
+ |  databaseMenu(...)
+ |      QgisInterface.databaseMenu() -> QMenu
+ |  
+ |  databaseToolBar(...)
+ |      QgisInterface.databaseToolBar() -> QToolBar
+ |  
+ |  defaultStyleSheetFont(...)
+ |      QgisInterface.defaultStyleSheetFont() -> QFont
+ |  
+ |  defaultStyleSheetOptions(...)
+ |      QgisInterface.defaultStyleSheetOptions() -> dict-of-QString-QVariant
+ |  
+ |  deleteComposer(...)
+ |      QgisInterface.deleteComposer(QgsComposerView)
+ |  
+ |  digitizeToolBar(...)
+ |      QgisInterface.digitizeToolBar() -> QToolBar
+ |  
+ |  disconnectNotify(...)
+ |  
+ |  duplicateComposer(...)
+ |      QgisInterface.duplicateComposer(QgsComposerView, QString title=QString()) -> QgsComposerView
+ |  
+ |  editMenu(...)
+ |      QgisInterface.editMenu() -> QMenu
+ |  
+ |  editableLayers(...)
+ |      QgisInterface.editableLayers(bool modified=False) -> list-of-QgsMapLayer
+ |  
+ |  fileMenu(...)
+ |      QgisInterface.fileMenu() -> QMenu
+ |  
+ |  fileToolBar(...)
+ |      QgisInterface.fileToolBar() -> QToolBar
+ |  
+ |  firstRightStandardMenu(...)
+ |      QgisInterface.firstRightStandardMenu() -> QMenu
+ |  
+ |  getFeatureForm(...)
+ |      QgisInterface.getFeatureForm(QgsVectorLayer, QgsFeature) -> QgsAttributeDialog
+ |  
+ |  helpMenu(...)
+ |      QgisInterface.helpMenu() -> QMenu
+ |  
+ |  helpToolBar(...)
+ |      QgisInterface.helpToolBar() -> QToolBar
+ |  
+ |  initializationCompleted = <unbound signal initializationCompleted>
+ |  insertAddLayerAction(...)
+ |      QgisInterface.insertAddLayerAction(QAction)
+ |  
+ |  layerMenu(...)
+ |      QgisInterface.layerMenu() -> QMenu
+ |  
+ |  layerSavedAs = <unbound signal layerSavedAs>
+ |  layerToolBar(...)
+ |      QgisInterface.layerToolBar() -> QToolBar
+ |  
+ |  layerTreeCanvasBridge(...)
+ |      QgisInterface.layerTreeCanvasBridge() -> QgsLayerTreeMapCanvasBridge
+ |  
+ |  layerTreeView(...)
+ |      QgisInterface.layerTreeView() -> QgsLayerTreeView
+ |  
+ |  legendInterface(...)
+ |      QgisInterface.legendInterface() -> QgsLegendInterface
+ |  
+ |  mainWindow(...)
+ |      QgisInterface.mainWindow() -> QWidget
+ |  
+ |  mapCanvas(...)
+ |      QgisInterface.mapCanvas() -> QgsMapCanvas
+ |  
+ |  mapNavToolToolBar(...)
+ |      QgisInterface.mapNavToolToolBar() -> QToolBar
+ |  
+ |  messageBar(...)
+ |      QgisInterface.messageBar() -> QgsMessageBar
+ |  
+ |  messageTimeout(...)
+ |      QgisInterface.messageTimeout() -> int
+ |  
+ |  newLayerMenu(...)
+ |      QgisInterface.newLayerMenu() -> QMenu
+ |  
+ |  newProject(...)
+ |      QgisInterface.newProject(bool thePromptToSaveFlag=False)
+ |  
+ |  newProjectCreated = <unbound signal newProjectCreated>
+ |  openFeatureForm(...)
+ |      QgisInterface.openFeatureForm(QgsVectorLayer, QgsFeature, bool updateFeatureOnly=False, bool showModal=True) -> bool
+ |  
+ |  openMessageLog(...)
+ |      QgisInterface.openMessageLog()
+ |  
+ |  openURL(...)
+ |      QgisInterface.openURL(QString, bool useQgisDocDirectory=True)
+ |  
+ |  pluginManagerInterface(...)
+ |      QgisInterface.pluginManagerInterface() -> QgsPluginManagerInterface
+ |  
+ |  pluginMenu(...)
+ |      QgisInterface.pluginMenu() -> QMenu
+ |  
+ |  pluginToolBar(...)
+ |      QgisInterface.pluginToolBar() -> QToolBar
+ |  
+ |  preloadForm(...)
+ |      QgisInterface.preloadForm(QString)
+ |  
+ |  projectMenu(...)
+ |      QgisInterface.projectMenu() -> QMenu
+ |  
+ |  projectRead = <unbound signal projectRead>
+ |  rasterMenu(...)
+ |      QgisInterface.rasterMenu() -> QMenu
+ |  
+ |  rasterToolBar(...)
+ |      QgisInterface.rasterToolBar() -> QToolBar
+ |  
+ |  receivers(...)
+ |  
+ |  registerMainWindowAction(...)
+ |      QgisInterface.registerMainWindowAction(QAction, QString) -> bool
+ |  
+ |  removeAddLayerAction(...)
+ |      QgisInterface.removeAddLayerAction(QAction)
+ |  
+ |  removeDatabaseToolBarIcon(...)
+ |      QgisInterface.removeDatabaseToolBarIcon(QAction)
+ |  
+ |  removeDockWidget(...)
+ |      QgisInterface.removeDockWidget(QDockWidget)
+ |  
+ |  removePluginDatabaseMenu(...)
+ |      QgisInterface.removePluginDatabaseMenu(QString, QAction)
+ |  
+ |  removePluginMenu(...)
+ |      QgisInterface.removePluginMenu(QString, QAction)
+ |  
+ |  removePluginRasterMenu(...)
+ |      QgisInterface.removePluginRasterMenu(QString, QAction)
+ |  
+ |  removePluginVectorMenu(...)
+ |      QgisInterface.removePluginVectorMenu(QString, QAction)
+ |  
+ |  removePluginWebMenu(...)
+ |      QgisInterface.removePluginWebMenu(QString, QAction)
+ |  
+ |  removeRasterToolBarIcon(...)
+ |      QgisInterface.removeRasterToolBarIcon(QAction)
+ |  
+ |  removeToolBarIcon(...)
+ |      QgisInterface.removeToolBarIcon(QAction)
+ |  
+ |  removeVectorToolBarIcon(...)
+ |      QgisInterface.removeVectorToolBarIcon(QAction)
+ |  
+ |  removeWebToolBarIcon(...)
+ |      QgisInterface.removeWebToolBarIcon(QAction)
+ |  
+ |  removeWindow(...)
+ |      QgisInterface.removeWindow(QAction)
+ |  
+ |  saveStyleSheetOptions(...)
+ |      QgisInterface.saveStyleSheetOptions(dict-of-QString-QVariant)
+ |  
+ |  sender(...)
+ |  
+ |  senderSignalIndex(...)
+ |  
+ |  setActiveLayer(...)
+ |      QgisInterface.setActiveLayer(QgsMapLayer) -> bool
+ |  
+ |  settingsMenu(...)
+ |      QgisInterface.settingsMenu() -> QMenu
+ |  
+ |  showAttributeTable(...)
+ |      QgisInterface.showAttributeTable(QgsVectorLayer, QString filterExpression=QString()) -> QDialog
+ |  
+ |  showLayerProperties(...)
+ |      QgisInterface.showLayerProperties(QgsMapLayer)
+ |  
+ |  timerEvent(...)
+ |  
+ |  unregisterMainWindowAction(...)
+ |      QgisInterface.unregisterMainWindowAction(QAction) -> bool
+ |  
+ |  vectorLayerTools(...)
+ |      QgisInterface.vectorLayerTools() -> QgsVectorLayerTools
+ |  
+ |  vectorMenu(...)
+ |      QgisInterface.vectorMenu() -> QMenu
+ |  
+ |  vectorToolBar(...)
+ |      QgisInterface.vectorToolBar() -> QToolBar
+ |  
+ |  viewMenu(...)
+ |      QgisInterface.viewMenu() -> QMenu
+ |  
+ |  webMenu(...)
+ |      QgisInterface.webMenu() -> QMenu
+ |  
+ |  webToolBar(...)
+ |      QgisInterface.webToolBar() -> QToolBar
+ |  
+ |  windowMenu(...)
+ |      QgisInterface.windowMenu() -> QMenu
+ |  
+ |  zoomFull(...)
+ |      QgisInterface.zoomFull()
+ |  
+ |  zoomToActiveLayer(...)
+ |      QgisInterface.zoomToActiveLayer()
+ |  
+ |  zoomToNext(...)
+ |      QgisInterface.zoomToNext()
+ |  
+ |  zoomToPrevious(...)
+ |      QgisInterface.zoomToPrevious()
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from PyQt4.QtCore.QObject:
+ |  
+ |  __getattr__(...)
+ |      QObject.__getattr__(str) -> object
+ |  
+ |  blockSignals(...)
+ |      QObject.blockSignals(bool) -> bool
+ |  
+ |  children(...)
+ |      QObject.children() -> list-of-QObject
+ |  
+ |  connect(...)
+ |      QObject.connect(QObject, SIGNAL(), QObject, SLOT(), Qt.ConnectionType=Qt.AutoConnection) -> bool
+ |      QObject.connect(QObject, SIGNAL(), callable, Qt.ConnectionType=Qt.AutoConnection) -> bool
+ |      QObject.connect(QObject, SIGNAL(), SLOT(), Qt.ConnectionType=Qt.AutoConnection) -> bool
+ |  
+ |  deleteLater(...)
+ |      QObject.deleteLater()
+ |  
+ |  destroyed = <unbound signal destroyed>
+ |  disconnect(...)
+ |      QObject.disconnect(QObject, SIGNAL(), QObject, SLOT()) -> bool
+ |      QObject.disconnect(QObject, SIGNAL(), callable) -> bool
+ |  
+ |  dumpObjectInfo(...)
+ |      QObject.dumpObjectInfo()
+ |  
+ |  dumpObjectTree(...)
+ |      QObject.dumpObjectTree()
+ |  
+ |  dynamicPropertyNames(...)
+ |      QObject.dynamicPropertyNames() -> list-of-QByteArray
+ |  
+ |  emit(...)
+ |      QObject.emit(SIGNAL(), ...)
+ |  
+ |  event(...)
+ |      QObject.event(QEvent) -> bool
+ |  
+ |  eventFilter(...)
+ |      QObject.eventFilter(QObject, QEvent) -> bool
+ |  
+ |  findChild(...)
+ |      QObject.findChild(type, QString name=QString()) -> QObject
+ |      QObject.findChild(tuple, QString name=QString()) -> QObject
+ |  
+ |  findChildren(...)
+ |      QObject.findChildren(type, QString name=QString()) -> list-of-QObject
+ |      QObject.findChildren(tuple, QString name=QString()) -> list-of-QObject
+ |      QObject.findChildren(type, QRegExp) -> list-of-QObject
+ |      QObject.findChildren(tuple, QRegExp) -> list-of-QObject
+ |  
+ |  inherits(...)
+ |      QObject.inherits(str) -> bool
+ |  
+ |  installEventFilter(...)
+ |      QObject.installEventFilter(QObject)
+ |  
+ |  isWidgetType(...)
+ |      QObject.isWidgetType() -> bool
+ |  
+ |  killTimer(...)
+ |      QObject.killTimer(int)
+ |  
+ |  metaObject(...)
+ |      QObject.metaObject() -> QMetaObject
+ |  
+ |  moveToThread(...)
+ |      QObject.moveToThread(QThread)
+ |  
+ |  objectName(...)
+ |      QObject.objectName() -> QString
+ |  
+ |  parent(...)
+ |      QObject.parent() -> QObject
+ |  
+ |  property(...)
+ |      QObject.property(str) -> QVariant
+ |  
+ |  pyqtConfigure(...)
+ |      QObject.pyqtConfigure(...)
+ |      
+ |      Each keyword argument is either the name of a Qt property or a Qt signal.
+ |      For properties the property is set to the given value which should be of an
+ |      appropriate type.
+ |      For signals the signal is connected to the given value which should be a
+ |      callable.
+ |  
+ |  removeEventFilter(...)
+ |      QObject.removeEventFilter(QObject)
+ |  
+ |  setObjectName(...)
+ |      QObject.setObjectName(QString)
+ |  
+ |  setParent(...)
+ |      QObject.setParent(QObject)
+ |  
+ |  setProperty(...)
+ |      QObject.setProperty(str, QVariant) -> bool
+ |  
+ |  signalsBlocked(...)
+ |      QObject.signalsBlocked() -> bool
+ |  
+ |  startTimer(...)
+ |      QObject.startTimer(int) -> int
+ |  
+ |  thread(...)
+ |      QObject.thread() -> QThread
+ |  
+ |  tr(...)
+ |      QObject.tr(str, str disambiguation=None, int n=-1) -> QString
+ |  
+ |  trUtf8(...)
+ |      QObject.trUtf8(str, str disambiguation=None, int n=-1) -> QString
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from PyQt4.QtCore.QObject:
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  staticMetaObject
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from sip.simplewrapper:
+ |  
+ |  __init__(...)
+ |      x.__init__(...) initializes x; see help(type(x)) for signature
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from sip.simplewrapper:
+ |  
+ |  __dict__
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from sip.simplewrapper:
+ |  
+ |  __new__ = <built-in method __new__ of sip.wrappertype object>
+ |      T.__new__(S, ...) -> a new object with type S, a subtype of T
