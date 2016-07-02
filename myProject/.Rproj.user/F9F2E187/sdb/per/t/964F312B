@@ -1,0 +1,17 @@
+{
+    "contents" : "#Dowload babies.txt and store as babies\nurl <- \"https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/babies.txt\"\nfilename <- basename(url)\ndownload(url, destfile=filename)\nbabies <- read.table(\"babies.txt\", header=TRUE)\n\n#split into two birth weight datasets\nbwt.nonsmoke <- filter(babies, smoke==0) %>% select(bwt) %>% unlist\nbwt.smoke <- filter(babies, smoke==1) %>% select(bwt) %>% unlist\n\n#we can look for the true population difference in means between smoking and non-smoking birth weights\nlibrary(rafalib)\nmean(bwt.nonsmoke)-mean(bwt.smoke)\npopsd(bwt.nonsmoke)\npopsd(bwt.smoke)\n\n#Power Calculations Exercises #1\n#seed at 1 and take a random sample of N=5 measurements from each of the smoking and nonsmoking datasets\nset.seed(1)\nN <- 30\n",
+    "created" : 1466224218786.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3871954594",
+    "id" : "964F312B",
+    "lastKnownWriteTime" : 1466259202,
+    "path" : "~/Desktop/Rworkspace/myProject/execise.R",
+    "project_path" : "execise.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

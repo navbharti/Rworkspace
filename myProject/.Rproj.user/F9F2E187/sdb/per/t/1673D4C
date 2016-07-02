@@ -1,0 +1,17 @@
+{
+    "contents" : "#Read a CSV file from the project path\ndat <- read.csv(\"femaleMiceWeights.csv\")\n\n#Download a file from given URL and save as femaleMiceWeights.csv \ninstall.packages(\"downloader\")\nlibrary(downloader) \nurl <- \"https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/femaleMiceWeights.csv\"\nfilename <- \"femaleMiceWeights.csv\" \ndownload(url, destfile=filename)\n\n\nView(dat)\n\n\nlibrary(dplyr)\n\n#\nfilters the dataset with attribute value Diet==\"chow\" and select Bodyweight then unlist\ncontrols <- filter(dat, Diet==\"chow\")\ncontrols <- select(controls, Bodyweight)\nunlist(controls)\n\n#This line of code does the same thing as above is done in three lines of code\ncontrols <- filter(dat, Diet==\"chow\") %>% select(Bodyweight) %>% unlist\ncontrols\n\n#This line of code does the same thing as above is done in three lines of code\ntreatment <- filter(dat, Diet==\"hf\") %>% select(Bodyweight) %>% unlist\ntreatment\n\n#take as observation\nobs <- mean(treatment) - mean(controls)\n\npopulation <-read.csv(\"femaleControlsPopulation.csv\")\npopulation <- unlist(population)\n\n#find the sample of 12 instances from the pupulation dataset and finds means\nmean(sample(population, 12))\n\n#NUll Hypothesis = there is no difference\nnulls <-vector(\"numeric\", n)\nn <- 10000\nfor(i in 1:n){\n  \n  control <- sample(population, 12)\n  treatment <- sample(population, 12)\n  nulls[i] <- mean(treatment)-mean(controls)\n  \n}\n\nmax(nulls)\n\nhist(nulls)\n\nsum(nulls > obs) / n\n\n#finds the p-value\nmean(abs(nulls) > obs)\n\n#Normal Distribution\n#Are Heights normally distributed?\n#How many standard deviations away from the mean?\n\n#Populations, Parameters, and sample estimates\n#take random sample\n#population averages\n#observations\n#Sample averages\n\n#central limit theorem(CLT)\n#We will remove the lines that contain missing values:\n\n#dat <- na.omit( dat )\ninstall.packages(\"rafalib\")\nlibrary(rafalib)\nmypar()\n\nqqnorm(nulls)\nqqline(nulls)\n\n#t-stat\nN <-length(treatment)\nobs <- mean(treatment)-mean(controls)\nse <- sqrt(\n  var(treatment)/N+\n    var(controls)/N\n  )\ntstat <- obs / se\n2 * (1 - pnorm(tstat))\n\n#finds the t-stat of two observations\nt.test(treatment, controls)\nqqnorm(controls)\nqqline(controls)\n\nqqnorm(treatment)\nqqline(treatment)\n\n\n##Introduction of inference\n",
+    "created" : 1466188349591.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3016886740",
+    "id" : "1673D4C",
+    "lastKnownWriteTime" : 1466192753,
+    "path" : "~/Desktop/Rworkspace/myProject/code.R",
+    "project_path" : "code.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

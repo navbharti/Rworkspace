@@ -1,0 +1,17 @@
+{
+    "contents" : "library(rafalib)\nlibrary(downloader)\nurl <- \"https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/mice_pheno.csv\"\nfilename <- \"mice_pheno.csv\"\nif (!file.exists(filename)) download(url,destfile=filename)\n\nlibrary(dplyr)\ndat <- read.csv(\"mice_pheno.csv\")\ncontrolPopulation <- filter(dat,Sex == \"F\" & Diet == \"chow\") %>%  \n  select(Bodyweight) %>% unlist\n\n#We will build a function that automatically generates a t-statistic under the null hypothesis for a sample size of n.\nttestgenerator <- function(n) {\n  #note that here we have a false \"high fat\" group where we actually\n  #sample from the chow or control population. \n  #This is because we are modeling the null.\n  cases <- sample(controlPopulation,n)\n  controls <- sample(controlPopulation,n)\n  tstat <- (mean(cases)-mean(controls)) / \n    sqrt( var(cases)/n + var(controls)/n ) \n  return(tstat)\n}\n\nttests <- replicate(1000, ttestgenerator(10))\n",
+    "created" : 1466226804657.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "543926285",
+    "id" : "29B2A74C",
+    "lastKnownWriteTime" : 1466259202,
+    "path" : "~/Desktop/Rworkspace/myProject/monte_carlo.R",
+    "project_path" : "monte_carlo.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

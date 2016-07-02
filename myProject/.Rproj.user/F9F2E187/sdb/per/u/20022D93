@@ -1,0 +1,17 @@
+{
+    "contents" : "library(raster)\nlibrary(rgdal)\n#readOGR is a function which accepts two arguments: dsn which stands for “data source name”\n#and specifies the location where the file is stored, and layer which specifies the file name.\nLayer <- readOGR(dsn=\"F:/backup from laptop/data/data for geospatial python/Crime\", layer=\"Crime\" )\n\nhead(Layer@data, n = 2)\nplot(Layer@data)\n",
+    "created" : 1467009939620.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3538622530",
+    "id" : "20022D93",
+    "lastKnownWriteTime" : 3689354290774815021,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

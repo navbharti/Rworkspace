@@ -1,0 +1,17 @@
+{
+    "contents" : "set.seed(1)\n\nchowPopulation <-read.csv(\"femaleControlsPopulation.csv\")\nchowPopulation <- unlist(chowPopulation)\n\nmu_chow <- mean(chowPopulation)\nprint (mu_chow)\n\nN <- 30\nchow <- sample(chowPopulation, N)\nprint(mean(chow))\n\nse ",
+    "created" : 1466192862623.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "940828197",
+    "id" : "796AD77C",
+    "lastKnownWriteTime" : 1466193317,
+    "path" : "~/Desktop/Rworkspace/myProject/confidence_intervals.R",
+    "project_path" : "confidence_intervals.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "#load rafalib package and data father.son\nlibrary(rafalib)\ndata(father.son,package=\"UsingR\") ##available from CRAN\nx <- father.son$fheight\n\nps <- ( seq(0,99) + 0.5 )/100 \nqs <- quantile(x, ps)\nnormalqs <- qnorm(ps, mean(x), popsd(x))\nplot(normalqs,qs,xlab=\"Normal percentiles\",ylab=\"Height percentiles\")\nabline(0,1) ##identity line\n\nqqnorm(x)\nqqline(x)\n\nn <-1000\nx <- rnorm(n)\nqqnorm(x)\nqqline(x)\n\ndfs <- c(3,6,12,30)\nmypar(2,2)\nfor(df in dfs){\n  x <- rt(1000,df)\n  qqnorm(x,xlab=\"t quantiles\",main=paste0(\"d.f=\",df),ylim=c(-6,6))\n  qqline(x)\n}\n\ndata(exec.pay,package=\"UsingR\")\nmypar(1,2)\nhist(exec.pay) \nqqnorm(exec.pay)\nqqline(exec.pay)\n\nboxplot(exec.pay, ylab=\"10,000s of dollars\", ylim=c(0,400))\n\ndata(father.son,package=\"UsingR\")\nx=father.son$fheight\ny=father.son$sheight\nplot(x,y, xlab=\"Father's height in inches\", \n     ylab=\"Son's height in inches\", \n     main=paste(\"correlation =\",signif(cor(x,y),2)))\n\ngroups <- split(y,round(x)) \nboxplot(groups)\nprint(mean(y[ round(x) == 72]))\n\ngroups <- split(y,round(x)) \nmypar(2,2)\nfor(i in c(5,8,11,14)){\n  qqnorm(groups[[i]],main=paste0(\"X=\",names(groups)[i],\" strata\"),\n         ylim=range(y),xlim=c(-2.5,2.5))\n  qqline(groups[[i]])\n}\n\n\nx=( x-mean(x) )/sd(x)\ny=( y-mean(y) )/sd(y)\nmeans=tapply(y, round(x*4)/4, mean)\nfatherheights=as.numeric(names(means))\nmypar(1,1)\nplot(fatherheights, means, ylab=\"average of strata of son heights\", ylim=range(fatherheights))\nabline(0, cor(x,y))\n",
+    "created" : 1466242615832.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "845739875",
+    "id" : "A59C972",
+    "lastKnownWriteTime" : 1466259202,
+    "path" : "~/Desktop/Rworkspace/myProject/EDA.R",
+    "project_path" : "EDA.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
