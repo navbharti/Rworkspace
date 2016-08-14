@@ -24,7 +24,7 @@ def cluster2Transaction(classAttri):
     for classVal in range(len(classAttri)):
         for feature in layer.getFeatures():    
             #if classAttri[classVal] == feature.attribute('class40'):
-            if classAttri[classVal] == feature.attribute('class270'):
+            if classAttri[classVal] == feature.attribute('class19231'):
                 #print feature.id()
                 #transaction.append(feature.attribute("commodity"))
                 transaction.append(feature.attribute("OFFGEN"))

@@ -1,0 +1,157 @@
+﻿//Universities
+CREATE
+(:University { name:'Pondicherry Central University'}, web:'http://www.pondiuni.edu.in/'),
+(:University {name: 'Arts and Humanities'}),
+(:University {name: 'Sciences'}),
+(:University {name: 'Health Sciences'}),
+(:University {name: 'Social and Legal Sciences'})
+
+//Schools
+CREATE
+(set:School{ name:'School of Engineering and Technology'}),
+(sm:School{ name:'School of Management'}),
+(sbstll:School{ name:'Subramania Bharathi School of Tamil Language & Literature'}),
+(se:School{ name:'School of Education'}),
+(rsms:School{ name:'Ramanujan School of Mathematical Sciences'}),
+(spcas:School{ name:'School of Physical, Chemical & Applied Sciences'}),
+(sls:School{ name:'School of Life Sciences'}),
+(sh:School{ name:'School of Humanities'}),
+(spa:School{ name:'School of Performing Arts'}),
+(sssis:School{ name:'School of Social Sciences & International Studies'}),
+(smc:School{ name:'School of Media & Communication'}),
+(msget:School{ name:'Madanjeet School of Green Energy Technologies'}),
+(sms:School{ name:'School of Medical Sciences'}),
+
+//Departments
+CREATE
+(set_td:Department { name:'Tamil Department'}),
+
+(se_cace:Department {name: 'Centre for Adult and Continuing Education'}),
+
+(sm_dbt:Department {name: 'Department of Banking Technology'}),
+(sm_dc:Department {name: 'Department of Commerce'}),
+(sm_dckc:Department {name: 'Department of Commerce - Karaikal Campus'})
+(sm_de:Department {name: 'Department of Economics'}),
+(sm_dib:Department {name: 'Department of International Business'}),
+(sm_dms:Department {name: 'Department of Management Studies'})
+(sm_dmskc:Department {name: 'Department of Management Studies - Karaikal Campus'}),
+(sm_dts:Department {name: 'Department of Tourism Studies'})
+
+(rsms_dm:Department {name: 'Department of Mathematics'}),
+(rsms_ds:Department {name: 'Department of Statistics'}),
+
+(set_cpcee:Department {name: 'Centre for Pollution Control and Environmental Engineering'}),
+(set_dcs:Department {name: 'Department of Computer Science'}),
+(set_dcskc:Department {name: 'Department of Computer Science- Karaikal Campus'}),
+(set_dee:Department {name: 'Department of Electronics Engineering'}),
+
+(spcas_dcdm:Department {name: 'Department of Coastal Disaster Management'}),
+(spcas_dap:Department {name: 'Department of Applied Psychology'}),
+(spcas_da:Department {name: 'Department of Astrophysics'}),
+(spcas_dc:Department {name: 'Department of Chemistry'}),
+(spcas_des:Department {name: 'Department of Earth Sciences'}),
+(spcas_dp:Department {name: 'Department of Physics'}),
+
+(sls_cb:Department {name: 'Centre for Bioinformatics'}),
+(sls_dbmb:Department {name: 'Department of Biochemistry and Molecular Biology'}),
+(sls_db:Department {name: 'Department of Biotechnology'}),
+(sls_dees:Department {name: 'Department of Ecology and Environmental Sciences'}),
+(sls_dfst:Department {name: 'Department of Food Science and Technology'}),
+(sls_dm:Department {name: 'Department of Microbiology'}),
+(sls_dcsmb:Department {name: 'Department of Ocean Studies and Marine Biology'}),
+
+(sh_df:Department {name: 'Department of French'}),
+(sh_dpes:Department {name: 'Department of Physical Education and Sports'}),
+(sh_cfl:Department {name: 'Centre for Foreign Language'}),
+(sh_de:Department {name: 'Department of English'}),
+(sh_dh:Department {name: 'Department of Hindi'}),
+(sh_dp:Department {name: 'Department of Philosophy'}),
+(sh_ds:Department {name: 'Department of Sanskrit'}),
+(sh_ecacs:Department {name: 'Escande Chair in Asian Christian Studies'}),
+
+(spa_dpa:Department {name: 'Department of Performing Arts'}),
+
+(sssis_ds:Department {name: 'Department of Sociology'}),
+(sssis_csseip:Department {name: 'Centre for Study of Social Exclusion & Inclusive Policy'}),
+(sssis_ces:Department {name: 'Centre for European Studies'}),
+(sssis_cms:Department {name: 'Centre for Maritime Studies'}),
+(sssis_csasp:Department {name: 'Centre for Southern Asia Studies Programme'}),
+(sssis_cws:Department {name: 'Centre for Women's Studies'}),
+(sssis_da:Department {name: 'Department of Anthropology'}),
+(sssis_dh:Department {name: 'Department of History'}),
+(sssis_dpis:Department {name: 'Department of Politics and International Studies'}),
+(sssis_dsw:Department {name: 'Department of Social Work'}),
+(sssis_ucsas:Department {name: 'UMISARC - Centre for South Asian Studies'}),
+
+(smc_demmc:Department {name: 'Department of Electronic Media and Mass Communication'}),
+(smc_dlis:Department {name: 'Department of Library & Information Science'}),
+
+(msget_cget:Department {name: 'Centre for Green Energy Technology'}),
+(msget_cnst:Department {name: 'Centre for Nano Sciences & Technology'}),
+
+//Degrees
+CREATE
+(DegreeGESCLR01:Degree { name:'Degree in Classics and Romance Studies.', code:'GESCLR01', credits: 240, students_first_year_2013: 16}),
+(DegreeGESCLR01)-[:TYPE]->(hum),
+(DegreeGESTIN01:Degree { name:'Degree in English Studies.', code:'GESTIN01', credits:  240, students_first_year_2013: 110}),
+(DegreeGESTIN01)-[:TYPE]->(hum),
+(DegreeGFILOS01:Degree { name:'Degree in Philosophy.', code:'GFILOS01', credits: 240, students_first_year_2013: 40}),
+(DegreeGFILOS01)-[:TYPE]->(hum),
+(DegreeGGEORT01:Degree { name:'Degree in Geography and Regional Planning.', code:'GGEORT01', credits: 240, students_first_year_2013: 27}),
+(DegreeGGEORT01)-[:TYPE]->(hum)
+
+//Papers
+CREATE
+(arc:Paper { name:'Engineering and Architecture'}),
+(hum:Paper {name: 'Arts and Humanities'}),
+(sci:Paper {name: 'Sciences'}),
+(health:Paper {name: 'Health Sciences'}),
+(social:Paper {name: 'Social and Legal Sciences'})
+
+//Faculties
+CREATE
+(schoolBiology:Faculty{ name:'Faculty of Biology', foundation: 1961, web: 'http://biologia.uniovi.es'}),
+(schoolScience:Faculty{ name:'Faculty of Science', foundation: 1958, web:'http://ciencias.uniovi.es/'}),
+(schoolJovellanos:Faculty{ name:'Faculty of Commerce, Tourism and Social Sciences Jovellanos', web:'http://jovellanos.uniovi.es/', foundation: 1899}),
+(schoolLaw:Faculty{ name:'Faculty of Law', web:'http://derecho.uniovi.es/', foundation: 1608}),
+(schoolBusiness:Faculty{ name:'Faculty of Economics and Business', web:'http://econo.uniovi.es/'}),
+(schoolArts:Faculty{ name:'Faculty of Arts', web:'http://fyl.uniovi.es/', foundation: 2010}),
+(schoolEducation:Faculty{ name:'Faculty of Teacher Training and Education', web:'http://www.unioviedo.es/fpe/portal/', foundation: 2010}),
+(schoolGeology:Faculty{ name:'Faculty of Geology', web:'http://geologia.uniovi.es/', foundation:1958}),
+(schoolSciences:Faculty{ name:'Faculty of Medicine and Health Sciences', web:'http://www.unioviedo.es/medicina/presentacion.htm', foundation: 1968}),
+(schoolPsychology:Faculty{ name:'Faculty of Psychology', web:'http://psicologia.uniovi.es', foundation: 1991}),
+(schoolChemistry:Faculty{ name:'Faculty of Chemistry', web:'http://quimica.uniovi.es', foundation: 1848})
+
+//Afliated_Institutions
+CREATE
+(schoolGijon:Afliated_Institute{ name:'University School of Nursing Cabueñes Gijon', web:''}),
+(schoolOssh:Afliated_Institute{ name:'University School Padre Enrique Ossó', web:''}),
+(schoolGijonSW:Afliated_Institute{ name:'University School of Social Work Gijón', web:''}),
+(schoolAsturias:Afliated_Institute{ name:'University School of Tourism of Asturias', web:''})
+
+//Campus
+CREATE
+(campusCristo:Campus { name:'El Cristo', city:'Oviedo'}),
+(campusLlamaquique:Campus { name:'Llamaquique', city:'Oviedo'}),
+(campusMilhn:Campus { name:'El Milán', city:'Oviedo'}),
+(campusCentro:Campus { name:'Oviedo Centro', city:'Oviedo'}),
+(campusGijon:Campus { name:'Gijón', city:'Gijón'}),
+(campusMieres:Campus { name:'Mieres', city:'Mieres'}),
+(campusCatalanes:Campus { name:'Los Catalanes', city:'Oviedo'})
+
+//Locations
+CREATE
+(schoolBiology)-[:LOCATED_IN]->(campusCristo),
+(schoolLaw)-[:LOCATED_IN]->(campusCristo),
+(schoolBusiness)-[:LOCATED_IN]->(campusCristo),
+(schoolChemistry)-[:LOCATED_IN]->(campusCristo),
+(schoolSciences)-[:LOCATED_IN]->(campusCristo)
+
+//Teaching
+CREATE
+(DegreeGESCLR01)<-[:TEACHES]-(schoolArts),
+(DegreeGESTIN01)<-[:TEACHES]-(schoolArts),
+(DegreeGFILOS01)<-[:TEACHES]-(schoolArts),
+(DegreeGGEORT01)<-[:TEACHES]-(schoolArts),
+(DegreeGHISTO01)<-[:TEACHES]-(schoolArts),
+(DegreeGHISAR01)<-[:TEACHES]-(schoolArts)

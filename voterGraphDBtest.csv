@@ -1,0 +1,101 @@
+sn,id,ac,father_husband,house,name,part,rel,section,sex,age
+300,RIO1631597,230,SHASHI SHEKHR SINGH,44,GAYATRI GOGOYI,20,H,2,F,31
+301,RIO2204824,230,Mahadeo Prasad,45,Sonu Kumar,20,F,2,M,25
+302,RIO2212447,230,KAPILDEV MEHATA,46,SUNIL KUMAR CHOUDHARI,20,F,2,M,32
+303,RIO2212454,230,SUNIL KUMAR CHOUDHARI,46,KUMARI MAIYABATI,20,F,2,F,21
+304,RIO2212322,230,KAMESHWAR RAM,47,SIYAMANI DEVI,20,H,2,F,59
+305,RIO2212413,230,KAMESWA RAM,47,DHARAMVIR KUMAR,20,F,2,M,32
+306,RIO2212421,230,BASUDEV RAM,47,KAMESHWAR RAM,20,F,2,M,63
+307,RIO2212496,230,LALITESWAR SINGH,48,SHANTI PRIYE,20,F,2,M,24
+308,RIO2212504,230,SHALIGARAM PRSAD,48,MANICHAND PATEL,20,F,2,M,34
+309,RIO2204816,230,LAXMAN PRASAD,49,MAHADEO PRASAD,20,F,2,M,65
+310,RIO2204832,230,MAHADEO PRASAD,49,MEENA DEVI,20,H,2,F,56
+311,RIO2224426,230,KRISHN KUMAR SINGH,50,MANMOHAN SINGH,20,F,2,M,28
+312,RIO2212348,230,PACHU YADAV,51,RAMESHWAR PRSAD,20,F,2,M,70
+313,RIO2212355,230,RAMESWAR PRSAD,51,MALTI DEVI,20,H,2,F,64
+314,RIO2212363,230,RAVISH KUMAR,51,PREMA,20,H,2,F,32
+315,RIO1212984,230,Vishudhari Prasad,1,Ramashis Prasad,20,F,3,M,76
+316,RIO1212992,230,Ramashias Prasad,1,Shyam sundar Devi,20,H,3,F,71
+317,RIO1213008,230,Ramshis Prasad,1,Ashok Kumar,20,F,3,M,36
+318,RIO1213016,230,Ashok Kumar,1,Kumari Priyanka,20,H,3,F,31
+319,RIO1213024,230,Ramshis Prasad,1,Pranav Kumar,20,F,3,M,34
+320,RIO1213032,230,Pranw Kumar,1,Indu Devi,20,H,3,F,29
+321,RIO1213040,230,Ramashis Prasad,1,Prabhat Kumar,20,F,3,M,32
+322,RIO1213057,230,Prabhat Kumar,1,Renu Kumari,20,H,3,F,28
+323,BVH4992343,230,Sukhu Chaudhari,2,Ramakrishna Chaudhari,20,F,3,M,56
+324,BVH4994869,230,Ramakrishna Chaudhari,2,Sanju Devi,20,H,3,F,51
+325,BVH4995708,230,Ramkrishna Chaudhari,2,Kundan Kumar Chaudhari,20,F,3,M,30
+326,RIO0586057,230,Vasanta Ram,2,Sunil Ram,20,F,3,M,39
+327,RIO0586081,230,Ramapratap Singh,3,Balmukunda Sinha,20,F,3,M,32
+328,RIO0586099,230,Balamukunda Sinha,3,Kumari Babita Sinha,20,F,3,M,27
+329,RIO2212587,230,AVDHESH PRASAD,3,VISHWAJEET KUMAR,20,F,3,M,21
+330,RIO0990143,230,Kanhaiya Nandan Prasad,4,Abadh Kumar,20,F,3,M,49
+331,RIO0990150,230,Abadh Kumar,4,Sunita Kumari,20,H,3,F,42
+332,RIO0990168,230,Prakash Singh,4,Satish Kumar,20,F,3,M,29
+333,RIO0248401,230,Shivalal Singh,4,Ramapratap Singh,20,O,3,M,58
+334,RIO1348135,230,Ram pratap Singh,4,Malti Devi,20,H,3,F,70
+335,RIO1331867,230,Daroga Lal,4,Awdhesh Kumar,20,F,3,M,39
+336,RIO1331875,230,Awdhesh Kumar,4,Manorma Devi,20,H,3,F,36
+337,RIO0251850,230,Kameshwar Sharma,5,Ramajanma Sharma,20,F,3,M,68
+338,RIO0251728,230,Kameshwar Sharma,5,Suchit Sharma,20,F,3,M,49
+339,RIO0249821,230,Ramajanma Sharma,5,Pritam Kumar,20,F,3,M,36
+340,RIO0251843,230,Ramajanma Sharma,5,Prabhat Kumar,20,F,3,M,31
+341,RIO0251736,230,Suchit Sharma,5,Chandan Kumar,20,F,3,M,27
+342,RIO0251389,230,Ramaswarup Singh,5,Ajay Kumar,20,F,3,M,46
+343,RIO0251256,230,Ajay Kumar,5,Gita Sharma,20,H,3,F,44
+344,RIO0586073,230,Harimohan Sharma,6,Gita Devi,20,H,3,F,47
+345,RIO0644831,230,Baikunda Singh,6,Hari Mohan Sharma,20,F,3,M,65
+346,RIO0644823,230,Harimohan Sharma,6,Pintu Kumar,20,F,3,M,27
+347,RIO1331784,230,Harimohan Sharma,6,Soni Kumari,20,F,3,F,24
+348,RIO2212546,230,RAJENDRA YADAV,6,RAJESH KUMAR,20,F,3,M,21
+349,RIO2212553,230,RAJENDRA YADAV,6,VIKASH KUMAR,20,F,3,M,19
+350,BVH4992442,230,Ramavachan Singh,7,Janeshwar Kumar,20,F,3,M,54
+351,BVH4992996,230,Janeshwar Singh,7,Shilavanti Devi,20,H,3,F,51
+352,BVH4992475,230,Janeshwar Singh,7,Rakesh Kumar,20,F,3,M,31
+353,RIO0448571,230,Janeshwar Kumar,7,Gaurav Kumar,20,F,3,M,30
+354,RIO0989764,230,Janeshwar Kumar,7,Kumari Rakha,20,F,3,F,26
+355,RIO1362375,230,Sunil Sharma,7,Abhishek Kumar,20,F,3,M,23
+356,RIO0989830,230,Baliram Singh,8,Ajay kumar Singh,20,F,3,M,53
+357,RIO0990069,230,Ajay kumar Singh,8,Balmiki Devi,20,H,3,F,47
+358,RIO0990176,230,Ashish Kumar,8,Nivedita Kumari,20,H,3,F,24
+359,RIO0245654,230,Rajendra Prasad,8,Ashish Kumar,20,F,3,M,34
+360,RIO0248468,230,Rajendra Prasad,8,Asha Varma,20,H,3,F,58
+361,RIO0249243,230,Purnananda Varma,8,Rajendra Prasad,20,F,3,M,64
+362,RIO2132454,230,Ajay kumar Sinha,8,Pravin Kumar,20,F,3,M,23
+363,RIO0250597,230,Baidyanath Prasad Sharma,9,Rukamani Devi,20,H,3,F,72
+364,RIO0250662,230,Baidyanath Prasad Sharma,9,Shailendra Kumar,20,F,3,M,49
+365,RIO0250571,230,Shailendra Kumar,9,Punam Devi,20,H,3,F,48
+366,RIO0252478,230,Baidyanath Prasad Sharma,9,Ramanivas Sharma,20,F,3,M,53
+367,RIO0250613,230,Ramanivas Sharma,9,Bebi Devi,20,H,3,F,51
+368,RIO0250688,230,Jaganarayan Singh,9,Baidyanath Prasad Varma,20,F,3,M,73
+369,RIO0808048,230,Jagranath Rai,10,Lakhanadev Rai,20,F,3,M,76
+370,RIO0808055,230,Lakhanadev Rai,10,Kosami Devi,20,H,3,F,69
+371,BVH0973370,230,Lakhanadev Rai,10,Ramashankar Rai,20,F,3,M,44
+372,BVH0974279,230,Ramashankar Rai,10,Champa Devi,20,H,3,F,39
+373,RIO0989608,230,Ramashankar Ray,10,Ashish Kumar,20,F,3,M,24
+374,RIO1331792,230,Ramashankar Rai,10,Amit Kumar,20,F,3,M,22
+375,BVH4992335,230,Ramachandar Prasad,11,Ambika Prasad,20,F,3,M,46
+376,BVH4995494,230,Ambika Prasad,11,Manju Devi,20,H,3,F,44
+377,RIO1331800,230,Ambika Prasad,11,Neetu Rani,20,F,3,F,22
+378,RIO0989442,230,Saryu Prasad,12,Abhay Kumar,20,F,3,M,33
+379,BR/43/250/120246,230,Sarau Prasad,12,Shakuntala Devi,20,H,3,F,64
+380,RIO0586115,230,Santosh Kumar,12,Gudiya Devi,20,H,3,F,30
+381,RIO0248070,230,Nanda kumar Singh,13,Shiv prasad Singh,20,F,3,M,56
+382,BVH4993200,230,SHIVPRASAD SINGH,13,PHULPATI DEVI,20,H,3,F,54
+383,BVH1893056,230,Shivaprasad Singh,13,Aravinda Kumar,20,F,3,M,29
+384,RIO0428409,230,Aravinda Kumar,13,Anjali Kumari,20,H,3,F,29
+385,RIO0990101,230,Ramakant Raw,13,Anjali Kumari,20,H,3,F,36
+386,RIO0247932,230,Mahavir Prasad,14,Kabilaso Devi,20,H,3,F,61
+387,BR/43/250/300166,230,Mukhalal Bhgat,14,Avadhesh Prasad,20,F,3,M,54
+388,BR/43/250/300167,230,Avadhesh Prasad,14,Kanti Devi,20,H,3,F,50
+389,RIO0251942,230,Avadhesh Prasad,14,Poplesh Prasad Pal,20,F,3,M,31
+390,RIO2132462,230,Mukhalal Bhgat,14,Mahavir Prasad,20,F,3,M,73
+391,RIO0989616,230,Abdhesh Prasad,14,Subhash kumar Pal,20,F,3,M,24
+392,RIO0427757,230,Umesh Prasad,15,Rinki Kumari,20,F,3,F,26
+393,RIO0427310,230,Brijanandan Prasad,15,Umesh Prasad,20,F,3,M,45
+394,RIO0427765,230,Umesh Prasad,15,Sushila Devi,20,H,3,F,42
+395,RIO0428433,230,Umesh Prasad,15,Dharmendra Kumar,20,F,3,M,25
+396,RIO0249623,230,Shivacharan Bhgat,16,Suraj Dev Prasad,20,F,3,M,55
+397,BVH4993010,230,Suraj Dev Prasad,16,Sharada Devi,20,H,3,F,51
+398,RIO1212950,230,Surajdev Prasad,16,Pawan Kumar,20,F,3,M,28
+399,BVH5002423,230,Dilip Kumar,16,Shyama Devi,20,H,3,F,44

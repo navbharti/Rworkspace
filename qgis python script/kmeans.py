@@ -78,8 +78,8 @@ def kmeans_clustering (vectorLayer, attributesList, normalize, clusterNumber, ou
 vectorLayer = iface.activeLayer()
 attributesList = ['X','Y']
 normalize =0
-clusterNumber = 270
-outputFieldName ='class270'
+clusterNumber = 19231
+outputFieldName ='class19231'
 kmeans_clustering (vectorLayer, attributesList, normalize, clusterNumber, outputFieldName)
 localtime = time.localtime(time.time())
 print "Local current time :", localtime
